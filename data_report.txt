@@ -1,0 +1,92 @@
+
+============================================================
+BHM
+============================================================
+BHM/  (0 files, 0 images)
+  Memes/  (7708 files, 7707 images)
+  Files/  (6 files, 0 images)
+
+-- Files/test_task1.xlsx  shape=(711, 3)
+columns: ['image_name', 'Captions', 'Labels']
+             image_name                                                                                                       Captions    Labels
+0    tangaila (119).jpg                      -খাবার বইসা ফোন টিপস কেন ?? আর টিপবি না...  আমিঃ- আমার এই বাজে স্বভাব কোনো দিন যাবে না !   non-hate
+1  ovodro_img (988).jpg  আজ রাতে 9:00 এর সময় সবাই লাইট বন্ধ করে মোমবাতি , প্রদিপ জালাবেন    লে ভক্ত ---   oh fuck yeah spread the news      hate
+  Labels: {'non-hate': 445, 'hate': 266}
+
+-- Files/train_task1.xlsx  shape=(5758, 3)
+columns: ['image_name', 'Captions', 'Labels']
+             image_name                                                           Captions Labels
+0   ovodro_img (79).jpg                        এশিয়া কাপে অংশগ্রহন করব ।   আসছি আমি ......   hate
+1  ovodro_img (154).jpg  দেশপ্রিয় পার্কে প্যান্ডেলে ঢোকার আগে   প্যান্ডেল থেকে বেরনোর পরে    hate
+  Labels: {'non-hate': 3641, 'hate': 2117}
+
+-- Files/valid_task2.xlsx  shape=(241, 3)
+columns: ['image_name', 'Captions', 'Labels']
+             image_name                                                                   Captions Labels
+0       chosha (23).jpg  বয়ফ্রেন্ড হইলে ফাইভ স্টার হোটেলে চলো    'জাস্ট ফ্রেন্ড'  পাটক্ষেতেও ভালো      TI
+1  ovodro_img (381).jpg                          "সকলের তরে সকলে আমরা প্রত্যেকে আমরা পরের তরে । "      TI
+  Labels: {'TI': 192, 'TC': 24, 'TO': 17, 'TS': 8}
+
+-- Files/valid_task1.xlsx  shape=(640, 3)
+columns: ['image_name', 'Captions', 'Labels']
+        image_name                                                                   Captions    Labels
+0  chosha (77).jpg                                নিচে হাত দিয়ে কি করছেন ?   ইঞ্জিন গরম করছি   non-hate
+1  chosha (23).jpg  বয়ফ্রেন্ড হইলে ফাইভ স্টার হোটেলে চলো    'জাস্ট ফ্রেন্ড'  পাটক্ষেতেও ভালো       hate
+  Labels: {'non-hate': 399, 'hate': 241}
+
+-- Files/train_task2.xlsx  shape=(2117, 3)
+columns: ['image_name', 'Captions', 'Labels']
+             image_name                                                           Captions Labels
+0   ovodro_img (79).jpg                        এশিয়া কাপে অংশগ্রহন করব ।   আসছি আমি ......     TI
+1  ovodro_img (154).jpg  দেশপ্রিয় পার্কে প্যান্ডেলে ঢোকার আগে   প্যান্ডেল থেকে বেরনোর পরে      TI
+  Labels: {'TI': 1623, 'TC': 249, 'TO': 160, 'TS': 85}
+
+-- Files/test_task2.xlsx  shape=(266, 3)
+columns: ['image_name', 'Captions', 'Labels']
+             image_name                                                                                                       Captions Labels
+0  ovodro_img (988).jpg  আজ রাতে 9:00 এর সময় সবাই লাইট বন্ধ করে মোমবাতি , প্রদিপ জালাবেন    লে ভক্ত ---   oh fuck yeah spread the news     TI
+1  ovodro_img (978).jpg                                                                                  A rare picture of বাংলার রুপ      TI
+  Labels: {'TI': 193, 'TC': 37, 'TO': 27, 'TS': 9}
+
+============================================================
+BanglaAbuseMeme
+============================================================
+BanglaAbuseMeme/  (2 files, 0 images)
+  Images/  (4043 files, 4043 images)
+
+-- BanglaAbuseMeme_annotation.csv  shape=(4043, 6)
+columns: ['Ids', 'sentiment', 'sarcasm', 'vulgar', 'abuse', 'target']
+           Ids sentiment sarcasm      vulgar        abuse     target
+0  image_1.jpg  Negative     Yes  Not Vulgar      Abusive  Political
+1  image_2.jpg  Negative     Yes      Vulgar  Non-abusive        NaN
+  sentiment: {'Negative': 2037, 'Neutral': 1414, 'Positive': 592}
+  sarcasm: {'No': 2379, 'Yes': 1664}
+  vulgar: {'Not Vulgar': 2872, 'Vulgar': 1171}
+  abuse: {'Non-abusive': 2528, 'Abusive': 1515}
+
+============================================================
+Bengali-Aggression-Memes-main/Dataset
+============================================================
+Dataset/  (3 files, 0 images)
+  Img/  (4848 files, 4848 images)
+
+-- testing_set.csv  shape=(728, 3)
+columns: ['image_name', 'Captions', 'Label']
+   image_name                                                                                       Captions                 Label
+0  fb 554.jpg                                                                       ভালোই তো এতদিন ভুলে ছিলি        non-aggressive
+1  in 375.jpg  দুই বাসের রেষারেষিতে কুণাল ঘোষের গাড়িতে ধাক্কা! আমি খোজ নিয়েছি বাস ড্রাইভার দুটো সিপেম করে...  political aggression
+  Label: {'non-aggressive': 182, 'gendered aggression': 144, 'others': 142, 'religious aggression': 132, 'political aggression': 128}
+
+-- validation_set.csv  shape=(727, 3)
+columns: ['image_name', 'Captions', 'Label']
+    image_name                                                                                                                    Captions                 Label
+0   in 493.jpg  দিদিমণি সুকন্যা জোড়া চাকরি করেন! ব্যবসাও রয়েছে, একের পর এক রহস্য কেষ্ট-কন্যাকে ঘিরে আমি তো কবেই বলেছি, ডবল ডবল চাকরি হবে।  political aggression
+1  blog 61.jpg                                                                            পৃথিবীর শান্তিপূর্ণ ইসলামী দেশগুলোর একটি তালিকা:  religious aggression
+  Label: {'non-aggressive': 181, 'gendered aggression': 144, 'others': 141, 'religious aggression': 133, 'political aggression': 128}
+
+-- training_set.csv  shape=(3393, 3)
+columns: ['image_name', 'Captions', 'Label']
+    image_name                                                                                                                                                                             Captions                 Label
+0  fb 1425.jpg  বিজেপি লিডার: *আমরা ফ্যাসিবাদী না।* বিজেপি সরকার: *ঘরে কমিউনিসম সম্পর্কিত বই রাখলে এবং ফেসবুকে 'লাল সেলাম'; 'কমরেড' শব্দ লিখলে জামিন অযোগ্য ধারায় দেশদ্রোহিতার মামলা রুজু করা হবে।*  political aggression
+1   in 444.jpg                   বিজয়া সম্মিলনীর মোড়কে পার্থ-কাণ্ডের 'ড্যামেজ কন্ট্রোলে' তৃণমূল, রাজ্য জুড়ে পাঁচশোর বেশি সভা চুরির আবার ডামেজ কন্ট্রোল!? এটা ওই স্যান্ডোর বুকপকেটের মতন ব্যাপার !  political aggression
+  Label: {'non-aggressive': 846, 'gendered aggression': 672, 'others': 660, 'religious aggression': 618, 'political aggression': 597}

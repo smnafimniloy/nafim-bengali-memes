@@ -43,3 +43,15 @@ mimosa__label__NAFIM__s43,mimosa,label,NAFIM,43,gold,4,0.7607877701134506,0.7961
 mimosa__label__NAFIM__s43,mimosa,label,NAFIM,43,surya,4,0.7607877701134506,0.7743147709579355,0.7651098901098901,4.87,frozen
 mimosa__label__NAFIM__s43,mimosa,label,NAFIM,43,easyocr,4,0.7607877701134506,0.7847411401710953,0.7747252747252747,4.87,frozen
 mimosa__label__NAFIM__s43,mimosa,label,NAFIM,43,ocr,4,0.7607877701134506,0.7743147709579355,0.7651098901098901,4.87,frozen
+mimosa__label_bin__NAFIM__s43,mimosa,label_bin,NAFIM,43,gold,5,0.7853026605782798,0.811085646379764,0.853021978021978,5.04,frozen
+mimosa__label_bin__NAFIM__s43,mimosa,label_bin,NAFIM,43,surya,5,0.7853026605782798,0.8143839899937461,0.8543956043956044,5.04,frozen
+mimosa__label_bin__NAFIM__s43,mimosa,label_bin,NAFIM,43,easyocr,5,0.7853026605782798,0.800375234521576,0.8434065934065934,5.04,frozen
+mimosa__label_bin__NAFIM__s43,mimosa,label_bin,NAFIM,43,ocr,5,0.7853026605782798,0.8129366137146836,0.853021978021978,5.04,frozen
+bhm__label__Fusion_mixed_text__s44,bhm,label,Fusion (mixed text),44,gold,1,0.7452700213751312,0.6901935669539805,0.6976090014064698,3.09,frozen
+bhm__label__Fusion_mixed_text__s44,bhm,label,Fusion (mixed text),44,surya,1,0.7452700213751312,0.6901935669539805,0.6976090014064698,3.09,frozen
+bhm__label__Fusion_mixed_text__s44,bhm,label,Fusion (mixed text),44,easyocr,1,0.7452700213751312,0.6901935669539805,0.6976090014064698,3.09,frozen
+bhm__label__Fusion_mixed_text__s44,bhm,label,Fusion (mixed text),44,ocr,1,0.7452700213751312,0.6901935669539805,0.6976090014064698,3.09,frozen
+mimosa__label__Fusion_mixed_text__s44,mimosa,label,Fusion (mixed text),44,gold,5,0.74997199202536,0.7826532545114624,0.7760989010989011,3.21,frozen
+mimosa__label__Fusion_mixed_text__s44,mimosa,label,Fusion (mixed text),44,surya,5,0.74997199202536,0.7642267124592592,0.7568681318681318,3.21,frozen
+mimosa__label__Fusion_mixed_text__s44,mimosa,label,Fusion (mixed text),44,easyocr,5,0.74997199202536,0.7605094465861727,0.7541208791208791,3.21,frozen
+mimosa__label__Fusion_mixed_text__s44,mimosa,label,Fusion (mixed text),44,ocr,5,0.74997199202536,0.7642998156813946,0.7568681318681318,3.21,frozen
