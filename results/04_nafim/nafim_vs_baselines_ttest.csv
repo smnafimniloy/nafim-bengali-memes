@@ -1,0 +1,64 @@
+dataset,task,vs,metric,delta,p_value,n_seeds,significant(p<0.05),result
+bhm,label,Fusion (train gold),gold,0.009195889402271118,0.2196012221526808,5,False,n.s.
+bhm,label,Fusion (train gold),surya,0.00915764789650706,0.40271996049176534,5,False,n.s.
+bhm,label,Fusion (train gold),easyocr,0.01720059288956053,0.2318785672520926,5,False,n.s.
+bhm,label,Fusion (train gold),ocr,0.009485717661639682,0.4002005204511169,5,False,n.s.
+bhm,label,Fusion (train gold),"mean(gold,surya,easyocr)",0.011851376729446205,0.2209579439271074,5,False,n.s.
+bhm,label,Fusion (train gold),"worst(gold,surya,easyocr)",0.016672230858603542,0.19665297719290487,5,False,n.s.
+bhm,label,Fusion (train gold),high-CER OCR (≥0.5),0.011684745939722819,0.3936845268361377,5,False,n.s.
+bhm,label,Fusion (train OCR),gold,0.018120984964900288,0.06318063255241999,5,False,n.s.
+bhm,label,Fusion (train OCR),surya,0.005648563134824691,0.21660720001891826,5,False,n.s.
+bhm,label,Fusion (train OCR),easyocr,0.008506828937713418,0.22460029408347248,5,False,n.s.
+bhm,label,Fusion (train OCR),ocr,0.005976632899957313,0.21086201075183147,5,False,n.s.
+bhm,label,Fusion (train OCR),"mean(gold,surya,easyocr)",0.010758792345812784,0.06960388695776591,5,False,n.s.
+bhm,label,Fusion (train OCR),"worst(gold,surya,easyocr)",0.013798511898406706,0.07037631395705747,5,False,n.s.
+bhm,label,Fusion (train OCR),high-CER OCR (≥0.5),0.008781563776389566,0.4974074380513991,5,False,n.s.
+bhm,label,Fusion (mixed text),gold,0.0046556678909349895,0.6181469299277806,5,False,n.s.
+bhm,label,Fusion (mixed text),surya,-0.002389460096925222,0.8065560620579988,5,False,n.s.
+bhm,label,Fusion (mixed text),easyocr,0.0030757422483865147,0.6692228681474742,5,False,n.s.
+bhm,label,Fusion (mixed text),ocr,-0.002061390331792601,0.8335243721894541,5,False,n.s.
+bhm,label,Fusion (mixed text),"mean(gold,surya,easyocr)",0.001780650014132057,0.8225963114653114,5,False,n.s.
+bhm,label,Fusion (mixed text),"worst(gold,surya,easyocr)",0.001158785563032838,0.88710094993867,5,False,n.s.
+bhm,label,Fusion (mixed text),high-CER OCR (≥0.5),0.009745385703942299,0.5289152880904084,5,False,n.s.
+mimosa,label,Fusion (train gold),gold,0.007711727691231074,0.16975212575115955,5,False,n.s.
+mimosa,label,Fusion (train gold),surya,0.0276009849249232,0.0005717120095903302,5,True,NAFIM better
+mimosa,label,Fusion (train gold),easyocr,0.03813548846127259,0.0035759237373767395,5,True,NAFIM better
+mimosa,label,Fusion (train gold),ocr,0.026719722062385754,0.0005960642488475619,5,True,NAFIM better
+mimosa,label,Fusion (train gold),"mean(gold,surya,easyocr)",0.024482733692475646,0.0011025152815112194,5,True,NAFIM better
+mimosa,label,Fusion (train gold),"worst(gold,surya,easyocr)",0.03301205011803636,0.0007144939589358888,5,True,NAFIM better
+mimosa,label,Fusion (train gold),high-CER OCR (≥0.5),0.04349785302407842,0.0007600246422135948,5,True,NAFIM better
+mimosa,label,Fusion (train OCR),gold,0.031518725569219155,0.0006373942074007672,5,True,NAFIM better
+mimosa,label,Fusion (train OCR),surya,0.0022252759283179603,0.42497797321499703,5,False,n.s.
+mimosa,label,Fusion (train OCR),easyocr,0.039446858764925506,0.0037441205450841454,5,True,NAFIM better
+mimosa,label,Fusion (train OCR),ocr,0.0021606785492859436,0.46533508020054976,5,False,n.s.
+mimosa,label,Fusion (train OCR),"mean(gold,surya,easyocr)",0.024396953420820842,0.001375749335724383,5,True,NAFIM better
+mimosa,label,Fusion (train OCR),"worst(gold,surya,easyocr)",0.030450863256356885,0.003715011136702661,5,True,NAFIM better
+mimosa,label,Fusion (train OCR),high-CER OCR (≥0.5),-0.0016113929232214551,0.8115415936834084,5,False,n.s.
+mimosa,label,Fusion (mixed text),gold,0.007778023137608736,0.07977348673048702,5,False,n.s.
+mimosa,label,Fusion (mixed text),surya,0.004929812972150782,0.061170416688022027,5,False,n.s.
+mimosa,label,Fusion (mixed text),easyocr,0.005267660261801121,0.4113866147753057,5,False,n.s.
+mimosa,label,Fusion (mixed text),ocr,0.005231962800089196,0.04228136837730446,5,True,NAFIM better
+mimosa,label,Fusion (mixed text),"mean(gold,surya,easyocr)",0.005991832123853502,0.0037513280938985933,5,True,NAFIM better
+mimosa,label,Fusion (mixed text),"worst(gold,surya,easyocr)",0.005673266146768085,0.012789730828714655,5,True,NAFIM better
+mimosa,label,Fusion (mixed text),high-CER OCR (≥0.5),0.003189387028754731,0.7009821718261732,5,False,n.s.
+mimosa,label_bin,Fusion (train gold),gold,0.0015678769877195409,0.7989629473314299,5,False,n.s.
+mimosa,label_bin,Fusion (train gold),surya,0.010860998652690879,0.23139517077253322,5,False,n.s.
+mimosa,label_bin,Fusion (train gold),easyocr,0.042931340911808766,0.004450146444307856,5,True,NAFIM better
+mimosa,label_bin,Fusion (train gold),ocr,0.00850443930268856,0.34208255015091177,5,False,n.s.
+mimosa,label_bin,Fusion (train gold),"mean(gold,surya,easyocr)",0.01845340551740642,0.009585028405680698,5,True,NAFIM better
+mimosa,label_bin,Fusion (train gold),"worst(gold,surya,easyocr)",0.03677629935210791,0.0009086142897480368,5,True,NAFIM better
+mimosa,label_bin,Fusion (train gold),high-CER OCR (≥0.5),0.017638720627217185,0.304305484667315,5,False,n.s.
+mimosa,label_bin,Fusion (train OCR),gold,0.015809008013214786,0.18788285200058133,5,False,n.s.
+mimosa,label_bin,Fusion (train OCR),surya,0.006164332555955077,0.30717404418955685,5,False,n.s.
+mimosa,label_bin,Fusion (train OCR),easyocr,0.016556808762002183,0.01546917858507208,5,True,NAFIM better
+mimosa,label_bin,Fusion (train OCR),ocr,0.004723010927142934,0.4307663106841395,5,False,n.s.
+mimosa,label_bin,Fusion (train OCR),"mean(gold,surya,easyocr)",0.012843383110390705,0.061799217478796166,5,False,n.s.
+mimosa,label_bin,Fusion (train OCR),"worst(gold,surya,easyocr)",0.011098334813035238,0.02133464981422939,5,True,NAFIM better
+mimosa,label_bin,Fusion (train OCR),high-CER OCR (≥0.5),-0.006651804306021391,0.5395414053936023,5,False,n.s.
+mimosa,label_bin,Fusion (mixed text),gold,0.0170826064559255,0.07586235196544461,5,False,n.s.
+mimosa,label_bin,Fusion (mixed text),surya,0.010788069425063074,0.2696396398534811,5,False,n.s.
+mimosa,label_bin,Fusion (mixed text),easyocr,0.012382689047613037,0.19695620472407363,5,False,n.s.
+mimosa,label_bin,Fusion (mixed text),ocr,0.009103885700789327,0.3091502037182363,5,False,n.s.
+mimosa,label_bin,Fusion (mixed text),"mean(gold,surya,easyocr)",0.01341778830953393,0.0676472361847839,5,False,n.s.
+mimosa,label_bin,Fusion (mixed text),"worst(gold,surya,easyocr)",0.010357745025516962,0.20115133921656525,5,False,n.s.
+mimosa,label_bin,Fusion (mixed text),high-CER OCR (≥0.5),0.005324547488195419,0.6506623334527301,5,False,n.s.

@@ -1,0 +1,91 @@
+{
+  "base_model": "Fusion XLM-R+CLIP",
+  "encoder": "xlm-roberta-base",
+  "word_embeddings_frozen": true,
+  "tasks": [
+    [
+      "bhm",
+      "label"
+    ],
+    [
+      "mimosa",
+      "label"
+    ],
+    [
+      "mimosa",
+      "label_bin"
+    ]
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "hyperparameters_from_nb02": {
+    "max_len": 128,
+    "batch_size": 16,
+    "max_epochs": 5,
+    "patience": 2,
+    "lr_encoder": 2e-05,
+    "lr_head": 0.0005,
+    "weight_decay": 0.01,
+    "warmup": 0.1,
+    "dropout": 0.1,
+    "pooling": "mean",
+    "amp": "torch.bfloat16"
+  },
+  "nafim": {
+    "loss": "0.5*(CE_gold + CE_view) + LAMBDA_REL*MSE(r, 1-CER) + LAMBDA_CONS*KL(p_gold || p_view)",
+    "lambda_rel": 0.5,
+    "lambda_cons": 1.0,
+    "text_source_mix": {
+      "gold": 0.25,
+      "surya": 0.25,
+      "easyocr": 0.25,
+      "synth": 0.25
+    },
+    "gate": "text_vec * r, r appended to fused vector",
+    "quality_features": [
+      "log_chars",
+      "log_words",
+      "empty",
+      "bengali_ratio",
+      "latin_ratio",
+      "digit_ratio",
+      "junk_ratio",
+      "punct_ratio",
+      "single_char_word_ratio",
+      "mean_word_len",
+      "subwords_per_word"
+    ]
+  },
+  "mixed_baseline": {
+    "text_source_mix": {
+      "gold": 0.3333333333333333,
+      "surya": 0.3333333333333333,
+      "easyocr": 0.3333333333333333
+    },
+    "loss": "CE"
+  },
+  "synthetic_noise": {
+    "versions_per_caption": 3,
+    "seed": 0,
+    "ops": "char deletion/substitution/insertion, dropped vowel signs, dropped word, junk token; rate~U(0.05,0.45)"
+  },
+  "model_selection": "best epoch by mean validation macro-F1 over gold/Surya/EasyOCR text",
+  "baselines_from_nb03": [
+    "Fusion (train gold)",
+    "Fusion (train OCR)"
+  ],
+  "note": "nb03 baselines were selected on validation F1 of their own training text source",
+  "high_cer_threshold": 0.5,
+  "versions": {
+    "python": "3.10.22",
+    "torch": "2.5.1+cu121",
+    "transformers": "4.46.3",
+    "sklearn": "1.7.2",
+    "gpu": "NVIDIA GeForce RTX 3050"
+  }
+}
