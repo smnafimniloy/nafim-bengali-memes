@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "clip": "openai/clip-vit-large-patch14",
+  "text_encoder": "csebuetnlp/banglabert",
+  "text_pooling": "mean",
+  "max_len": 128,
+  "classifier": "LogisticRegression(class_weight=balanced), C tuned on val from [0.001, 0.01, 0.1, 1]",
+  "bam_split": "stratified 70/10/20, seed 42 (prepare_data.py)",
+  "bam_text": "Surya OCR 0.17.1 (conf>=0.5) + EasyOCR fallback",
+  "versions": {
+    "python": "3.10.22",
+    "torch": "2.5.1+cu121",
+    "transformers": "4.46.3",
+    "sklearn": "1.7.2",
+    "gpu": "NVIDIA GeForce RTX 3050"
+  }
+}

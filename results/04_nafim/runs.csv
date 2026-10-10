@@ -1,0 +1,41 @@
+train_id,dataset,task,model,seed,test_text,best_epoch,val_mean_f1,test_f1,test_acc,minutes,word_emb
+bhm__label__Fusion_mixed_text__s42,bhm,label,Fusion (mixed text),42,gold,3,0.7573333292144079,0.7351635706066086,0.7482419127988749,5.08,frozen
+bhm__label__Fusion_mixed_text__s42,bhm,label,Fusion (mixed text),42,surya,3,0.7573333292144079,0.7299791948746739,0.7412095639943741,5.08,frozen
+bhm__label__Fusion_mixed_text__s42,bhm,label,Fusion (mixed text),42,easyocr,3,0.7573333292144079,0.7214463835229687,0.7341772151898734,5.08,frozen
+bhm__label__Fusion_mixed_text__s42,bhm,label,Fusion (mixed text),42,ocr,3,0.7573333292144079,0.7299791948746739,0.7412095639943741,5.08,frozen
+mimosa__label__Fusion_mixed_text__s42,mimosa,label,Fusion (mixed text),42,gold,5,0.7494609825807773,0.7678887592517236,0.7596153846153846,3.24,frozen
+mimosa__label__Fusion_mixed_text__s42,mimosa,label,Fusion (mixed text),42,surya,5,0.7494609825807773,0.7555383753296752,0.7472527472527473,3.24,frozen
+mimosa__label__Fusion_mixed_text__s42,mimosa,label,Fusion (mixed text),42,easyocr,5,0.7494609825807773,0.7700251173087794,0.760989010989011,3.24,frozen
+mimosa__label__Fusion_mixed_text__s42,mimosa,label,Fusion (mixed text),42,ocr,5,0.7494609825807773,0.7569024728467536,0.7486263736263736,3.24,frozen
+mimosa__label_bin__Fusion_mixed_text__s42,mimosa,label_bin,Fusion (mixed text),42,gold,3,0.7856543282078631,0.7867425510545698,0.8269230769230769,3.21,frozen
+mimosa__label_bin__Fusion_mixed_text__s42,mimosa,label_bin,Fusion (mixed text),42,surya,3,0.7856543282078631,0.799094446939081,0.8379120879120879,3.21,frozen
+mimosa__label_bin__Fusion_mixed_text__s42,mimosa,label_bin,Fusion (mixed text),42,easyocr,3,0.7856543282078631,0.798818372403278,0.8406593406593407,3.21,frozen
+mimosa__label_bin__Fusion_mixed_text__s42,mimosa,label_bin,Fusion (mixed text),42,ocr,3,0.7856543282078631,0.799094446939081,0.8379120879120879,3.21,frozen
+bhm__label__NAFIM__s42,bhm,label,NAFIM,42,gold,3,0.7600759600855485,0.7391323274262723,0.7510548523206751,7.82,frozen
+bhm__label__NAFIM__s42,bhm,label,NAFIM,42,surya,3,0.7600759600855485,0.7332370127918377,0.7454289732770746,7.82,frozen
+bhm__label__NAFIM__s42,bhm,label,NAFIM,42,easyocr,3,0.7600759600855485,0.7295988029552043,0.7426160337552743,7.82,frozen
+bhm__label__NAFIM__s42,bhm,label,NAFIM,42,ocr,3,0.7600759600855485,0.7348773616175008,0.7468354430379747,7.82,frozen
+mimosa__label__NAFIM__s42,mimosa,label,NAFIM,42,gold,3,0.7609598949391855,0.7774308766535901,0.7747252747252747,4.95,frozen
+mimosa__label__NAFIM__s42,mimosa,label,NAFIM,42,surya,3,0.7609598949391855,0.7622385362206263,0.7596153846153846,4.95,frozen
+mimosa__label__NAFIM__s42,mimosa,label,NAFIM,42,easyocr,3,0.7609598949391855,0.7652528802814944,0.760989010989011,4.95,frozen
+mimosa__label__NAFIM__s42,mimosa,label,NAFIM,42,ocr,3,0.7609598949391855,0.7622385362206263,0.7596153846153846,4.95,frozen
+mimosa__label_bin__NAFIM__s42,mimosa,label_bin,NAFIM,42,gold,5,0.788666968644269,0.8252100840336134,0.864010989010989,4.93,frozen
+mimosa__label_bin__NAFIM__s42,mimosa,label_bin,NAFIM,42,surya,5,0.788666968644269,0.7997219969883007,0.8434065934065934,4.93,frozen
+mimosa__label_bin__NAFIM__s42,mimosa,label_bin,NAFIM,42,easyocr,5,0.788666968644269,0.8057955188567525,0.853021978021978,4.93,frozen
+mimosa__label_bin__NAFIM__s42,mimosa,label_bin,NAFIM,42,ocr,5,0.788666968644269,0.7997219969883007,0.8434065934065934,4.93,frozen
+bhm__label__Fusion_mixed_text__s43,bhm,label,Fusion (mixed text),43,gold,3,0.7558619942817163,0.724759080800593,0.7355836849507735,5.06,frozen
+bhm__label__Fusion_mixed_text__s43,bhm,label,Fusion (mixed text),43,surya,3,0.7558619942817163,0.7234550472196097,0.7341772151898734,5.06,frozen
+bhm__label__Fusion_mixed_text__s43,bhm,label,Fusion (mixed text),43,easyocr,3,0.7558619942817163,0.7237762237762237,0.7355836849507735,5.06,frozen
+bhm__label__Fusion_mixed_text__s43,bhm,label,Fusion (mixed text),43,ocr,3,0.7558619942817163,0.7234550472196097,0.7341772151898734,5.06,frozen
+mimosa__label__Fusion_mixed_text__s43,mimosa,label,Fusion (mixed text),43,gold,4,0.7508717543430631,0.779666112324749,0.7733516483516484,3.23,frozen
+mimosa__label__Fusion_mixed_text__s43,mimosa,label,Fusion (mixed text),43,surya,4,0.7508717543430631,0.7713234257717116,0.7651098901098901,3.23,frozen
+mimosa__label__Fusion_mixed_text__s43,mimosa,label,Fusion (mixed text),43,easyocr,4,0.7508717543430631,0.7804119166846122,0.7733516483516484,3.23,frozen
+mimosa__label__Fusion_mixed_text__s43,mimosa,label,Fusion (mixed text),43,ocr,4,0.7508717543430631,0.7710829968357392,0.7651098901098901,3.23,frozen
+mimosa__label_bin__Fusion_mixed_text__s43,mimosa,label_bin,Fusion (mixed text),43,gold,2,0.7649244752806398,0.7866296319676788,0.8214285714285714,2.61,frozen
+mimosa__label_bin__Fusion_mixed_text__s43,mimosa,label_bin,Fusion (mixed text),43,surya,2,0.7649244752806398,0.7708220903040115,0.8076923076923077,2.61,frozen
+mimosa__label_bin__Fusion_mixed_text__s43,mimosa,label_bin,Fusion (mixed text),43,easyocr,2,0.7649244752806398,0.7764353222657145,0.8159340659340659,2.61,frozen
+mimosa__label_bin__Fusion_mixed_text__s43,mimosa,label_bin,Fusion (mixed text),43,ocr,2,0.7649244752806398,0.7734991477810744,0.8104395604395604,2.61,frozen
+bhm__label__NAFIM__s43,bhm,label,NAFIM,43,gold,2,0.7536127952398189,0.7171347254383906,0.7257383966244726,6.43,frozen
+bhm__label__NAFIM__s43,bhm,label,NAFIM,43,surya,2,0.7536127952398189,0.7094830860838766,0.720112517580872,6.43,frozen
+bhm__label__NAFIM__s43,bhm,label,NAFIM,43,easyocr,2,0.7536127952398189,0.7185737375070093,0.729957805907173,6.43,frozen
+bhm__label__NAFIM__s43,bhm,label,NAFIM,43,ocr,2,0.7536127952398189,0.7094830860838766,0.720112517580872,6.43,frozen

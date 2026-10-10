@@ -1,0 +1,31 @@
+# --- datasets (third-party licenses, large; do NOT redistribute) ---
+dataset/
+
+# --- processed data: contains captions + OCR text of offensive memes ---
+processed/
+
+# --- large generated files ---
+features/                 # CLIP .npy features (regenerate with notebook 01)
+results/**/preds/         # per-run prediction .npy files
+*.npy
+*.pt
+*.bin
+*.safetensors
+Saved_Models/
+
+# --- logs & caches ---
+*.log
+nohup.out
+__pycache__/
+.ipynb_checkpoints/
+.cache/
+
+# --- notebooks' heavy outputs (optional: see note) ---
+# *.ipynb  -> keep, but clear outputs before committing
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
+
+papers/

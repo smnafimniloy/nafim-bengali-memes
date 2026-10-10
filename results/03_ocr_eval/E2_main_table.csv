@@ -1,0 +1,13 @@
+dataset,task,model,train_text,gold,surya,easyocr,ocr
+bhm,label,Fusion XLM-R+CLIP,gold,0.7187 ± 0.0121,0.7084 ± 0.0156,0.7052 ± 0.0261,0.7084 ± 0.0156
+bhm,label,Fusion XLM-R+CLIP,ocr,0.7098 ± 0.0243,0.7119 ± 0.0128,0.7139 ± 0.0142,0.7119 ± 0.0128
+bhm,label,Text-FT XLM-R,gold,0.6709 ± 0.0081,0.6345 ± 0.0061,0.6182 ± 0.0106,0.6339 ± 0.0054
+bhm,label,Text-FT XLM-R,ocr,0.6466 ± 0.0062,0.6609 ± 0.0058,0.6353 ± 0.0081,0.6621 ± 0.0058
+mimosa,label,Fusion XLM-R+CLIP,gold,0.7767 ± 0.0083,0.7394 ± 0.0101,0.7379 ± 0.0061,0.7409 ± 0.0095
+mimosa,label,Fusion XLM-R+CLIP,ocr,0.7529 ± 0.0060,0.7648 ± 0.0045,0.7366 ± 0.0075,0.7654 ± 0.0041
+mimosa,label,Text-FT XLM-R,gold,0.6709 ± 0.0054,0.6238 ± 0.0089,0.6143 ± 0.0095,0.6250 ± 0.0088
+mimosa,label,Text-FT XLM-R,ocr,0.6477 ± 0.0117,0.6859 ± 0.0099,0.6429 ± 0.0096,0.6865 ± 0.0099
+mimosa,label_bin,Fusion XLM-R+CLIP,gold,0.8132 ± 0.0130,0.7935 ± 0.0129,0.7611 ± 0.0064,0.7955 ± 0.0135
+mimosa,label_bin,Fusion XLM-R+CLIP,ocr,0.7990 ± 0.0139,0.7982 ± 0.0110,0.7875 ± 0.0098,0.7993 ± 0.0116
+mimosa,label_bin,Text-FT XLM-R,gold,0.7503 ± 0.0115,0.7041 ± 0.0043,0.6791 ± 0.0157,0.7081 ± 0.0079
+mimosa,label_bin,Text-FT XLM-R,ocr,0.7211 ± 0.0157,0.7321 ± 0.0177,0.7077 ± 0.0177,0.7344 ± 0.0168

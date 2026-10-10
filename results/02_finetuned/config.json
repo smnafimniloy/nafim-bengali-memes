@@ -1,0 +1,60 @@
+{
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "tasks": [
+    [
+      "bhm",
+      "label"
+    ],
+    [
+      "banglaabusememe",
+      "label"
+    ],
+    [
+      "mimosa",
+      "label"
+    ],
+    [
+      "mimosa",
+      "label_bin"
+    ]
+  ],
+  "text_models": {
+    "BanglaBERT": "csebuetnlp/banglabert",
+    "XLM-R": "xlm-roberta-base"
+  },
+  "image_features": "frozen CLIP ViT-L/14 (notebook 01)",
+  "text": {
+    "max_len": 128,
+    "batch_size": 16,
+    "max_epochs": 5,
+    "patience": 2,
+    "lr_encoder": 2e-05,
+    "lr_head": 0.0005,
+    "weight_decay": 0.01,
+    "warmup": 0.1,
+    "dropout": 0.1,
+    "pooling": "mean",
+    "amp": "torch.bfloat16"
+  },
+  "image_mlp": {
+    "lr": 0.001,
+    "batch_size": 64,
+    "max_epochs": 50,
+    "patience": 5
+  },
+  "loss": "weighted cross-entropy (inverse class frequency on train)",
+  "model_selection": "best epoch by validation macro-F1",
+  "versions": {
+    "python": "3.10.22",
+    "torch": "2.5.1+cu121",
+    "transformers": "4.46.3",
+    "sklearn": "1.7.2",
+    "gpu": "NVIDIA GeForce RTX 3050"
+  }
+}

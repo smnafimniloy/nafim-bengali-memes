@@ -1,0 +1,5 @@
+dataset,task,Fusion (concat),Image (CLIP),Text (BanglaBERT)
+banglaabusememe,label,0.722,0.7245,0.6454
+bhm,label,0.6859,0.7113,0.5884
+mimosa,label,0.7246,0.7148,0.5067
+mimosa,label_bin,0.7698,0.7238,0.6774

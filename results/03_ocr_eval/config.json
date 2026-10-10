@@ -1,0 +1,62 @@
+{
+  "selected_model": "Fusion XLM-R+CLIP",
+  "selection": "highest mean validation macro-F1 in notebook 02 over the tasks below",
+  "models_run": [
+    "Fusion XLM-R+CLIP",
+    "Text-FT XLM-R"
+  ],
+  "tasks": [
+    [
+      "bhm",
+      "label"
+    ],
+    [
+      "mimosa",
+      "label"
+    ],
+    [
+      "mimosa",
+      "label_bin"
+    ]
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "train_sources": {
+    "gold": "text",
+    "ocr": "text_ocr"
+  },
+  "test_sources": {
+    "gold": "text",
+    "surya": "text_surya",
+    "easyocr": "text_easyocr",
+    "ocr": "text_ocr"
+  },
+  "validation_text": "same source as training text",
+  "cer_normalization": "NFC, lowercase, punctuation/symbols removed, whitespace collapsed; rows with empty gold text excluded",
+  "hyperparameters": {
+    "max_len": 128,
+    "batch_size": 16,
+    "max_epochs": 5,
+    "patience": 2,
+    "lr_encoder": 2e-05,
+    "lr_head": 0.0005,
+    "weight_decay": 0.01,
+    "warmup": 0.1,
+    "dropout": 0.1,
+    "pooling": "mean",
+    "amp": "torch.bfloat16"
+  },
+  "word_embeddings": "frozen (only the input word-embedding table; all transformer layers trained)",
+  "versions": {
+    "python": "3.10.22",
+    "torch": "2.5.1+cu121",
+    "transformers": "4.46.3",
+    "sklearn": "1.7.2",
+    "gpu": "NVIDIA GeForce RTX 3050"
+  }
+}
