@@ -1,0 +1,249 @@
+train_id,part,dataset,task,model,seed,test_on,test_text,best_epoch,val_mean_f1,test_f1,test_acc,minutes
+bhm__label__NAFIM_image_fallback__s42,A,bhm,label,NAFIM + image fallback,42,bhm,gold,4,0.7612422360706604,0.73846897783068,0.749648382559775,8.06
+bhm__label__NAFIM_image_fallback__s42,A,bhm,label,NAFIM + image fallback,42,bhm,surya,4,0.7612422360706604,0.7214709833560653,0.7313642756680732,8.06
+bhm__label__NAFIM_image_fallback__s42,A,bhm,label,NAFIM + image fallback,42,bhm,easyocr,4,0.7612422360706604,0.7365145614786934,0.7482419127988749,8.06
+bhm__label__NAFIM_image_fallback__s42,A,bhm,label,NAFIM + image fallback,42,bhm,ocr,4,0.7612422360706604,0.7214709833560653,0.7313642756680732,8.06
+bhm__label__NAFIM_image_fallback__s42,A,bhm,label,NAFIM + image fallback,42,mimosa,ocr,4,0.7612422360706604,0.644215975528083,0.6662087912087912,8.06
+bhm__label__NAFIM_image_fallback__s42,A,bhm,label,NAFIM + image fallback,42,banglaabusememe,ocr,4,0.7612422360706604,0.5932853211331612,0.5933250927070457,8.06
+mimosa__label__NAFIM_image_fallback__s42,A,mimosa,label,NAFIM + image fallback,42,mimosa,gold,5,0.759825719636848,0.7913351230369189,0.7843406593406593,5.19
+mimosa__label__NAFIM_image_fallback__s42,A,mimosa,label,NAFIM + image fallback,42,mimosa,surya,5,0.759825719636848,0.7713479405195343,0.7651098901098901,5.19
+mimosa__label__NAFIM_image_fallback__s42,A,mimosa,label,NAFIM + image fallback,42,mimosa,easyocr,5,0.759825719636848,0.7805486880508319,0.7747252747252747,5.19
+mimosa__label__NAFIM_image_fallback__s42,A,mimosa,label,NAFIM + image fallback,42,mimosa,ocr,5,0.759825719636848,0.7726752770285387,0.7664835164835165,5.19
+mimosa__label_bin__NAFIM_image_fallback__s42,A,mimosa,label_bin,NAFIM + image fallback,42,mimosa,gold,5,0.7925560531271044,0.8137205460394749,0.8585164835164835,5.12
+mimosa__label_bin__NAFIM_image_fallback__s42,A,mimosa,label_bin,NAFIM + image fallback,42,mimosa,surya,5,0.7925560531271044,0.8021093834946178,0.8489010989010989,5.12
+mimosa__label_bin__NAFIM_image_fallback__s42,A,mimosa,label_bin,NAFIM + image fallback,42,mimosa,easyocr,5,0.7925560531271044,0.8034769463340892,0.8489010989010989,5.12
+mimosa__label_bin__NAFIM_image_fallback__s42,A,mimosa,label_bin,NAFIM + image fallback,42,mimosa,ocr,5,0.7925560531271044,0.8006586493987049,0.8475274725274725,5.12
+mimosa__label_bin__NAFIM_image_fallback__s42,A,mimosa,label_bin,NAFIM + image fallback,42,bhm,ocr,5,0.7925560531271044,0.6556764052080025,0.6568213783403657,5.12
+mimosa__label_bin__NAFIM_image_fallback__s42,A,mimosa,label_bin,NAFIM + image fallback,42,banglaabusememe,ocr,5,0.7925560531271044,0.39620599152823016,0.4400494437577256,5.12
+bhm__label__NAFIM_image_fallback__s43,A,bhm,label,NAFIM + image fallback,43,bhm,gold,3,0.7581239203683738,0.724759080800593,0.7355836849507735,8.19
+bhm__label__NAFIM_image_fallback__s43,A,bhm,label,NAFIM + image fallback,43,bhm,surya,3,0.7581239203683738,0.7283485300647453,0.739803094233474,8.19
+bhm__label__NAFIM_image_fallback__s43,A,bhm,label,NAFIM + image fallback,43,bhm,easyocr,3,0.7581239203683738,0.7318496169161175,0.7454289732770746,8.19
+bhm__label__NAFIM_image_fallback__s43,A,bhm,label,NAFIM + image fallback,43,bhm,ocr,3,0.7581239203683738,0.7283485300647453,0.739803094233474,8.19
+bhm__label__NAFIM_image_fallback__s43,A,bhm,label,NAFIM + image fallback,43,mimosa,ocr,3,0.7581239203683738,0.6136630223846254,0.6277472527472527,8.19
+bhm__label__NAFIM_image_fallback__s43,A,bhm,label,NAFIM + image fallback,43,banglaabusememe,ocr,3,0.7581239203683738,0.6059099264705883,0.6069221260815822,8.19
+mimosa__label__NAFIM_image_fallback__s43,A,mimosa,label,NAFIM + image fallback,43,mimosa,gold,4,0.753913523422609,0.7835553941891185,0.7733516483516484,5.05
+mimosa__label__NAFIM_image_fallback__s43,A,mimosa,label,NAFIM + image fallback,43,mimosa,surya,4,0.753913523422609,0.7676034152294943,0.7582417582417582,5.05
+mimosa__label__NAFIM_image_fallback__s43,A,mimosa,label,NAFIM + image fallback,43,mimosa,easyocr,4,0.753913523422609,0.7710648785463939,0.7596153846153846,5.05
+mimosa__label__NAFIM_image_fallback__s43,A,mimosa,label,NAFIM + image fallback,43,mimosa,ocr,4,0.753913523422609,0.7689023039677673,0.7596153846153846,5.05
+mimosa__label_bin__NAFIM_image_fallback__s43,A,mimosa,label_bin,NAFIM + image fallback,43,mimosa,gold,5,0.7897780217111396,0.8256876340549301,0.8695054945054945,5.07
+mimosa__label_bin__NAFIM_image_fallback__s43,A,mimosa,label_bin,NAFIM + image fallback,43,mimosa,surya,5,0.7897780217111396,0.8019278606965174,0.8461538461538461,5.07
+mimosa__label_bin__NAFIM_image_fallback__s43,A,mimosa,label_bin,NAFIM + image fallback,43,mimosa,easyocr,5,0.7897780217111396,0.8013486305966572,0.8475274725274725,5.07
+mimosa__label_bin__NAFIM_image_fallback__s43,A,mimosa,label_bin,NAFIM + image fallback,43,mimosa,ocr,5,0.7897780217111396,0.800492318139377,0.8447802197802198,5.07
+mimosa__label_bin__NAFIM_image_fallback__s43,A,mimosa,label_bin,NAFIM + image fallback,43,bhm,ocr,5,0.7897780217111396,0.6582654082654082,0.659634317862166,5.07
+mimosa__label_bin__NAFIM_image_fallback__s43,A,mimosa,label_bin,NAFIM + image fallback,43,banglaabusememe,ocr,5,0.7897780217111396,0.39701401384310275,0.4388133498145859,5.07
+bhm__label__NAFIM_image_fallback__s44,A,bhm,label,NAFIM + image fallback,44,bhm,gold,4,0.7598020307032908,0.7240260080860894,0.739803094233474,8.21
+bhm__label__NAFIM_image_fallback__s44,A,bhm,label,NAFIM + image fallback,44,bhm,surya,4,0.7598020307032908,0.7225883987756558,0.7369901547116737,8.21
+bhm__label__NAFIM_image_fallback__s44,A,bhm,label,NAFIM + image fallback,44,bhm,easyocr,4,0.7598020307032908,0.7166544607815521,0.7313642756680732,8.21
+bhm__label__NAFIM_image_fallback__s44,A,bhm,label,NAFIM + image fallback,44,bhm,ocr,4,0.7598020307032908,0.7225883987756558,0.7369901547116737,8.21
+bhm__label__NAFIM_image_fallback__s44,A,bhm,label,NAFIM + image fallback,44,mimosa,ocr,4,0.7598020307032908,0.6180910446617507,0.6332417582417582,8.21
+bhm__label__NAFIM_image_fallback__s44,A,bhm,label,NAFIM + image fallback,44,banglaabusememe,ocr,4,0.7598020307032908,0.6156415046472474,0.6180469715698393,8.21
+mimosa__label__NAFIM_image_fallback__s44,A,mimosa,label,NAFIM + image fallback,44,mimosa,gold,5,0.7606942551413596,0.7870687990931652,0.7802197802197802,5.02
+mimosa__label__NAFIM_image_fallback__s44,A,mimosa,label,NAFIM + image fallback,44,mimosa,surya,5,0.7606942551413596,0.7537658356327173,0.7486263736263736,5.02
+mimosa__label__NAFIM_image_fallback__s44,A,mimosa,label,NAFIM + image fallback,44,mimosa,easyocr,5,0.7606942551413596,0.7729710844240039,0.7664835164835165,5.02
+mimosa__label__NAFIM_image_fallback__s44,A,mimosa,label,NAFIM + image fallback,44,mimosa,ocr,5,0.7606942551413596,0.7554952479493084,0.75,5.02
+mimosa__label_bin__NAFIM_image_fallback__s44,A,mimosa,label_bin,NAFIM + image fallback,44,mimosa,gold,4,0.7784583757159623,0.8257880653512302,0.864010989010989,5.02
+mimosa__label_bin__NAFIM_image_fallback__s44,A,mimosa,label_bin,NAFIM + image fallback,44,mimosa,surya,4,0.7784583757159623,0.8019278606965174,0.8461538461538461,5.02
+mimosa__label_bin__NAFIM_image_fallback__s44,A,mimosa,label_bin,NAFIM + image fallback,44,mimosa,easyocr,4,0.7784583757159623,0.7919687171003158,0.8434065934065934,5.02
+mimosa__label_bin__NAFIM_image_fallback__s44,A,mimosa,label_bin,NAFIM + image fallback,44,mimosa,ocr,4,0.7784583757159623,0.800492318139377,0.8447802197802198,5.02
+mimosa__label_bin__NAFIM_image_fallback__s44,A,mimosa,label_bin,NAFIM + image fallback,44,bhm,ocr,4,0.7784583757159623,0.6534157041812159,0.6554149085794655,5.02
+mimosa__label_bin__NAFIM_image_fallback__s44,A,mimosa,label_bin,NAFIM + image fallback,44,banglaabusememe,ocr,4,0.7784583757159623,0.40466660683837385,0.44252163164400493,5.02
+bhm__label__NAFIM_image_fallback__s45,A,bhm,label,NAFIM + image fallback,45,bhm,gold,2,0.7537257732910444,0.740036563071298,0.7538677918424754,6.54
+bhm__label__NAFIM_image_fallback__s45,A,bhm,label,NAFIM + image fallback,45,bhm,surya,2,0.7537257732910444,0.7262863718559921,0.739803094233474,6.54
+bhm__label__NAFIM_image_fallback__s45,A,bhm,label,NAFIM + image fallback,45,bhm,easyocr,2,0.7537257732910444,0.7331526271893245,0.7468354430379747,6.54
+bhm__label__NAFIM_image_fallback__s45,A,bhm,label,NAFIM + image fallback,45,bhm,ocr,2,0.7537257732910444,0.7262863718559921,0.739803094233474,6.54
+bhm__label__NAFIM_image_fallback__s45,A,bhm,label,NAFIM + image fallback,45,mimosa,ocr,2,0.7537257732910444,0.633191623366399,0.6483516483516484,6.54
+bhm__label__NAFIM_image_fallback__s45,A,bhm,label,NAFIM + image fallback,45,banglaabusememe,ocr,2,0.7537257732910444,0.6042074363992171,0.6069221260815822,6.54
+mimosa__label__NAFIM_image_fallback__s45,A,mimosa,label,NAFIM + image fallback,45,mimosa,gold,5,0.7586905615947233,0.7797237925653424,0.7733516483516484,5.0
+mimosa__label__NAFIM_image_fallback__s45,A,mimosa,label,NAFIM + image fallback,45,mimosa,surya,5,0.7586905615947233,0.7738114835194987,0.7692307692307693,5.0
+mimosa__label__NAFIM_image_fallback__s45,A,mimosa,label,NAFIM + image fallback,45,mimosa,easyocr,5,0.7586905615947233,0.771007248202826,0.7651098901098901,5.0
+mimosa__label__NAFIM_image_fallback__s45,A,mimosa,label,NAFIM + image fallback,45,mimosa,ocr,5,0.7586905615947233,0.7752156542854217,0.7706043956043956,5.0
+mimosa__label_bin__NAFIM_image_fallback__s45,A,mimosa,label_bin,NAFIM + image fallback,45,mimosa,gold,2,0.7812247625561467,0.8130554994602384,0.8585164835164835,4.03
+mimosa__label_bin__NAFIM_image_fallback__s45,A,mimosa,label_bin,NAFIM + image fallback,45,mimosa,surya,2,0.7812247625561467,0.7997219969883007,0.8434065934065934,4.03
+mimosa__label_bin__NAFIM_image_fallback__s45,A,mimosa,label_bin,NAFIM + image fallback,45,mimosa,easyocr,2,0.7812247625561467,0.7877173386578626,0.8379120879120879,4.03
+mimosa__label_bin__NAFIM_image_fallback__s45,A,mimosa,label_bin,NAFIM + image fallback,45,mimosa,ocr,2,0.7812247625561467,0.7997219969883007,0.8434065934065934,4.03
+mimosa__label_bin__NAFIM_image_fallback__s45,A,mimosa,label_bin,NAFIM + image fallback,45,bhm,ocr,2,0.7812247625561467,0.6623146674297569,0.6638537271448663,4.03
+mimosa__label_bin__NAFIM_image_fallback__s45,A,mimosa,label_bin,NAFIM + image fallback,45,banglaabusememe,ocr,2,0.7812247625561467,0.4014161568534806,0.44252163164400493,4.03
+bhm__label__NAFIM_image_fallback__s46,A,bhm,label,NAFIM + image fallback,46,bhm,gold,1,0.7429939118526456,0.7065412101898818,0.7229254571026723,4.89
+bhm__label__NAFIM_image_fallback__s46,A,bhm,label,NAFIM + image fallback,46,bhm,surya,1,0.7429939118526456,0.7042872115656558,0.7187060478199718,4.89
+bhm__label__NAFIM_image_fallback__s46,A,bhm,label,NAFIM + image fallback,46,bhm,easyocr,1,0.7429939118526456,0.7114910406049646,0.7257383966244726,4.89
+bhm__label__NAFIM_image_fallback__s46,A,bhm,label,NAFIM + image fallback,46,bhm,ocr,1,0.7429939118526456,0.7042872115656558,0.7187060478199718,4.89
+bhm__label__NAFIM_image_fallback__s46,A,bhm,label,NAFIM + image fallback,46,mimosa,ocr,1,0.7429939118526456,0.6034671933289445,0.6181318681318682,4.89
+bhm__label__NAFIM_image_fallback__s46,A,bhm,label,NAFIM + image fallback,46,banglaabusememe,ocr,1,0.7429939118526456,0.5766055573887486,0.5784919653893696,4.89
+mimosa__label__NAFIM_image_fallback__s46,A,mimosa,label,NAFIM + image fallback,46,mimosa,gold,5,0.7614339590650913,0.7833673079750294,0.7760989010989011,4.98
+mimosa__label__NAFIM_image_fallback__s46,A,mimosa,label,NAFIM + image fallback,46,mimosa,surya,5,0.7614339590650913,0.7574156924641468,0.7513736263736264,4.98
+mimosa__label__NAFIM_image_fallback__s46,A,mimosa,label,NAFIM + image fallback,46,mimosa,easyocr,5,0.7614339590650913,0.7735985095394445,0.7664835164835165,4.98
+mimosa__label__NAFIM_image_fallback__s46,A,mimosa,label,NAFIM + image fallback,46,mimosa,ocr,5,0.7614339590650913,0.758804674279752,0.7527472527472527,4.98
+mimosa__label_bin__NAFIM_image_fallback__s46,A,mimosa,label_bin,NAFIM + image fallback,46,mimosa,gold,4,0.79790555793326,0.8143772016467018,0.8585164835164835,5.01
+mimosa__label_bin__NAFIM_image_fallback__s46,A,mimosa,label_bin,NAFIM + image fallback,46,mimosa,surya,4,0.79790555793326,0.7984629443166422,0.8447802197802198,5.01
+mimosa__label_bin__NAFIM_image_fallback__s46,A,mimosa,label_bin,NAFIM + image fallback,46,mimosa,easyocr,4,0.79790555793326,0.7941638148722299,0.8406593406593407,5.01
+mimosa__label_bin__NAFIM_image_fallback__s46,A,mimosa,label_bin,NAFIM + image fallback,46,mimosa,ocr,4,0.79790555793326,0.7984629443166422,0.8447802197802198,5.01
+mimosa__label_bin__NAFIM_image_fallback__s46,A,mimosa,label_bin,NAFIM + image fallback,46,bhm,ocr,4,0.79790555793326,0.6614285714285715,0.6624472573839663,5.01
+mimosa__label_bin__NAFIM_image_fallback__s46,A,mimosa,label_bin,NAFIM + image fallback,46,banglaabusememe,ocr,4,0.79790555793326,0.39797033875981247,0.44128553770086526,5.01
+bhm__label__Fusion_mixed_text__s42,B,bhm,label,Fusion (mixed text),42,bhm,gold,3,0.7573333292144079,0.7351635706066086,0.7482419127988749,5.19
+bhm__label__Fusion_mixed_text__s42,B,bhm,label,Fusion (mixed text),42,bhm,surya,3,0.7573333292144079,0.7299791948746739,0.7412095639943741,5.19
+bhm__label__Fusion_mixed_text__s42,B,bhm,label,Fusion (mixed text),42,bhm,easyocr,3,0.7573333292144079,0.7214463835229687,0.7341772151898734,5.19
+bhm__label__Fusion_mixed_text__s42,B,bhm,label,Fusion (mixed text),42,bhm,ocr,3,0.7573333292144079,0.7299791948746739,0.7412095639943741,5.19
+bhm__label__Fusion_mixed_text__s42,B,bhm,label,Fusion (mixed text),42,mimosa,ocr,3,0.7573333292144079,0.640901620192394,0.6607142857142857,5.19
+bhm__label__Fusion_mixed_text__s42,B,bhm,label,Fusion (mixed text),42,banglaabusememe,ocr,3,0.7573333292144079,0.589159191864805,0.5896168108776267,5.19
+mimosa__label_bin__Fusion_mixed_text__s42,B,mimosa,label_bin,Fusion (mixed text),42,mimosa,gold,3,0.7860940338614038,0.7903839436593125,0.8324175824175825,3.32
+mimosa__label_bin__Fusion_mixed_text__s42,B,mimosa,label_bin,Fusion (mixed text),42,mimosa,surya,3,0.7860940338614038,0.7930530594025678,0.8337912087912088,3.32
+mimosa__label_bin__Fusion_mixed_text__s42,B,mimosa,label_bin,Fusion (mixed text),42,mimosa,easyocr,3,0.7860940338614038,0.792626849451478,0.8365384615384616,3.32
+mimosa__label_bin__Fusion_mixed_text__s42,B,mimosa,label_bin,Fusion (mixed text),42,mimosa,ocr,3,0.7860940338614038,0.7930530594025678,0.8337912087912088,3.32
+mimosa__label_bin__Fusion_mixed_text__s42,B,mimosa,label_bin,Fusion (mixed text),42,bhm,ocr,3,0.7860940338614038,0.6895569620253165,0.6933895921237694,3.32
+mimosa__label_bin__Fusion_mixed_text__s42,B,mimosa,label_bin,Fusion (mixed text),42,banglaabusememe,ocr,3,0.7860940338614038,0.45078071961982347,0.4758961681087763,3.32
+bhm__label__NAFIM__s42,B,bhm,label,NAFIM,42,bhm,gold,3,0.7600759600855485,0.7391323274262723,0.7510548523206751,8.11
+bhm__label__NAFIM__s42,B,bhm,label,NAFIM,42,bhm,surya,3,0.7600759600855485,0.7332370127918377,0.7454289732770746,8.11
+bhm__label__NAFIM__s42,B,bhm,label,NAFIM,42,bhm,easyocr,3,0.7600759600855485,0.7295988029552043,0.7426160337552743,8.11
+bhm__label__NAFIM__s42,B,bhm,label,NAFIM,42,bhm,ocr,3,0.7600759600855485,0.7348773616175008,0.7468354430379747,8.11
+bhm__label__NAFIM__s42,B,bhm,label,NAFIM,42,mimosa,ocr,3,0.7600759600855485,0.6388482070681616,0.6552197802197802,8.11
+bhm__label__NAFIM__s42,B,bhm,label,NAFIM,42,banglaabusememe,ocr,3,0.7600759600855485,0.6175152274290205,0.619283065512979,8.11
+mimosa__label_bin__NAFIM__s42,B,mimosa,label_bin,NAFIM,42,mimosa,gold,5,0.788666968644269,0.8252100840336134,0.864010989010989,5.1
+mimosa__label_bin__NAFIM__s42,B,mimosa,label_bin,NAFIM,42,mimosa,surya,5,0.788666968644269,0.7997219969883007,0.8434065934065934,5.1
+mimosa__label_bin__NAFIM__s42,B,mimosa,label_bin,NAFIM,42,mimosa,easyocr,5,0.788666968644269,0.8057955188567525,0.853021978021978,5.1
+mimosa__label_bin__NAFIM__s42,B,mimosa,label_bin,NAFIM,42,mimosa,ocr,5,0.788666968644269,0.7997219969883007,0.8434065934065934,5.1
+mimosa__label_bin__NAFIM__s42,B,mimosa,label_bin,NAFIM,42,bhm,ocr,5,0.788666968644269,0.6652655416612867,0.6666666666666666,5.1
+mimosa__label_bin__NAFIM__s42,B,mimosa,label_bin,NAFIM,42,banglaabusememe,ocr,5,0.788666968644269,0.41676471689116507,0.45241038318912236,5.1
+bhm__label__Fusion_mixed_text__s43,B,bhm,label,Fusion (mixed text),43,bhm,gold,3,0.7558619942817163,0.724759080800593,0.7355836849507735,5.17
+bhm__label__Fusion_mixed_text__s43,B,bhm,label,Fusion (mixed text),43,bhm,surya,3,0.7558619942817163,0.7234550472196097,0.7341772151898734,5.17
+bhm__label__Fusion_mixed_text__s43,B,bhm,label,Fusion (mixed text),43,bhm,easyocr,3,0.7558619942817163,0.7237762237762237,0.7355836849507735,5.17
+bhm__label__Fusion_mixed_text__s43,B,bhm,label,Fusion (mixed text),43,bhm,ocr,3,0.7558619942817163,0.7234550472196097,0.7341772151898734,5.17
+bhm__label__Fusion_mixed_text__s43,B,bhm,label,Fusion (mixed text),43,mimosa,ocr,3,0.7558619942817163,0.6403782860475773,0.657967032967033,5.17
+bhm__label__Fusion_mixed_text__s43,B,bhm,label,Fusion (mixed text),43,banglaabusememe,ocr,3,0.7558619942817163,0.5807078939764341,0.580964153275649,5.17
+mimosa__label_bin__Fusion_mixed_text__s43,B,mimosa,label_bin,Fusion (mixed text),43,mimosa,gold,3,0.7670559489527786,0.7905804864500259,0.8406593406593407,3.3
+mimosa__label_bin__Fusion_mixed_text__s43,B,mimosa,label_bin,Fusion (mixed text),43,mimosa,surya,3,0.7670559489527786,0.7970260223048327,0.8434065934065934,3.3
+mimosa__label_bin__Fusion_mixed_text__s43,B,mimosa,label_bin,Fusion (mixed text),43,mimosa,easyocr,3,0.7670559489527786,0.7897618120864357,0.842032967032967,3.3
+mimosa__label_bin__Fusion_mixed_text__s43,B,mimosa,label_bin,Fusion (mixed text),43,mimosa,ocr,3,0.7670559489527786,0.7984629443166422,0.8447802197802198,3.3
+mimosa__label_bin__Fusion_mixed_text__s43,B,mimosa,label_bin,Fusion (mixed text),43,bhm,ocr,3,0.7670559489527786,0.6629897367246764,0.6638537271448663,3.3
+mimosa__label_bin__Fusion_mixed_text__s43,B,mimosa,label_bin,Fusion (mixed text),43,banglaabusememe,ocr,3,0.7670559489527786,0.40510782826617425,0.44870210135970334,3.3
+bhm__label__NAFIM__s43,B,bhm,label,NAFIM,43,bhm,gold,2,0.7536127952398189,0.7171347254383906,0.7257383966244726,6.51
+bhm__label__NAFIM__s43,B,bhm,label,NAFIM,43,bhm,surya,2,0.7536127952398189,0.7094830860838766,0.720112517580872,6.51
+bhm__label__NAFIM__s43,B,bhm,label,NAFIM,43,bhm,easyocr,2,0.7536127952398189,0.7185737375070093,0.729957805907173,6.51
+bhm__label__NAFIM__s43,B,bhm,label,NAFIM,43,bhm,ocr,2,0.7536127952398189,0.7094830860838766,0.720112517580872,6.51
+bhm__label__NAFIM__s43,B,bhm,label,NAFIM,43,mimosa,ocr,2,0.7536127952398189,0.6447684203188639,0.6634615384615384,6.51
+bhm__label__NAFIM__s43,B,bhm,label,NAFIM,43,banglaabusememe,ocr,2,0.7536127952398189,0.5805950405639964,0.580964153275649,6.51
+mimosa__label_bin__NAFIM__s43,B,mimosa,label_bin,NAFIM,43,mimosa,gold,5,0.7853026605782798,0.811085646379764,0.853021978021978,5.05
+mimosa__label_bin__NAFIM__s43,B,mimosa,label_bin,NAFIM,43,mimosa,surya,5,0.7853026605782798,0.8143839899937461,0.8543956043956044,5.05
+mimosa__label_bin__NAFIM__s43,B,mimosa,label_bin,NAFIM,43,mimosa,easyocr,5,0.7853026605782798,0.800375234521576,0.8434065934065934,5.05
+mimosa__label_bin__NAFIM__s43,B,mimosa,label_bin,NAFIM,43,mimosa,ocr,5,0.7853026605782798,0.8129366137146836,0.853021978021978,5.05
+mimosa__label_bin__NAFIM__s43,B,mimosa,label_bin,NAFIM,43,bhm,ocr,5,0.7853026605782798,0.6559382822503719,0.6582278481012658,5.05
+mimosa__label_bin__NAFIM__s43,B,mimosa,label_bin,NAFIM,43,banglaabusememe,ocr,5,0.7853026605782798,0.4296796986537826,0.45982694684796044,5.05
+bhm__label__Fusion_mixed_text__s44,B,bhm,label,Fusion (mixed text),44,bhm,gold,1,0.7452700213751312,0.6901935669539805,0.6976090014064698,3.17
+bhm__label__Fusion_mixed_text__s44,B,bhm,label,Fusion (mixed text),44,bhm,surya,1,0.7452700213751312,0.6901935669539805,0.6976090014064698,3.17
+bhm__label__Fusion_mixed_text__s44,B,bhm,label,Fusion (mixed text),44,bhm,easyocr,1,0.7452700213751312,0.6901935669539805,0.6976090014064698,3.17
+bhm__label__Fusion_mixed_text__s44,B,bhm,label,Fusion (mixed text),44,bhm,ocr,1,0.7452700213751312,0.6901935669539805,0.6976090014064698,3.17
+bhm__label__Fusion_mixed_text__s44,B,bhm,label,Fusion (mixed text),44,mimosa,ocr,1,0.7452700213751312,0.6395604395604395,0.6620879120879121,3.17
+bhm__label__Fusion_mixed_text__s44,B,bhm,label,Fusion (mixed text),44,banglaabusememe,ocr,1,0.7452700213751312,0.5535490715531592,0.553770086526576,3.17
+mimosa__label_bin__Fusion_mixed_text__s44,B,mimosa,label_bin,Fusion (mixed text),44,mimosa,gold,4,0.7859333508246117,0.8106232391946677,0.8543956043956044,3.31
+mimosa__label_bin__Fusion_mixed_text__s44,B,mimosa,label_bin,Fusion (mixed text),44,mimosa,surya,4,0.7859333508246117,0.7969612087259146,0.842032967032967,3.31
+mimosa__label_bin__Fusion_mixed_text__s44,B,mimosa,label_bin,Fusion (mixed text),44,mimosa,easyocr,4,0.7859333508246117,0.784119327448674,0.8351648351648352,3.31
+mimosa__label_bin__Fusion_mixed_text__s44,B,mimosa,label_bin,Fusion (mixed text),44,mimosa,ocr,4,0.7859333508246117,0.7969612087259146,0.842032967032967,3.31
+mimosa__label_bin__Fusion_mixed_text__s44,B,mimosa,label_bin,Fusion (mixed text),44,bhm,ocr,4,0.7859333508246117,0.660169567157519,0.6610407876230661,3.31
+mimosa__label_bin__Fusion_mixed_text__s44,B,mimosa,label_bin,Fusion (mixed text),44,banglaabusememe,ocr,4,0.7859333508246117,0.4119253438113949,0.4511742892459827,3.31
+bhm__label__NAFIM__s44,B,bhm,label,NAFIM,44,bhm,gold,5,0.7599444395942804,0.7191972159787601,0.7313642756680732,8.06
+bhm__label__NAFIM__s44,B,bhm,label,NAFIM,44,bhm,surya,5,0.7599444395942804,0.7159747961452929,0.7271448663853727,8.06
+bhm__label__NAFIM__s44,B,bhm,label,NAFIM,44,bhm,easyocr,5,0.7599444395942804,0.7166014394729505,0.7285513361462729,8.06
+bhm__label__NAFIM__s44,B,bhm,label,NAFIM,44,bhm,ocr,5,0.7599444395942804,0.7159747961452929,0.7271448663853727,8.06
+bhm__label__NAFIM__s44,B,bhm,label,NAFIM,44,mimosa,ocr,5,0.7599444395942804,0.647668269948914,0.6662087912087912,8.06
+bhm__label__NAFIM__s44,B,bhm,label,NAFIM,44,banglaabusememe,ocr,5,0.7599444395942804,0.6164445994225027,0.6168108776266996,8.06
+mimosa__label_bin__NAFIM__s44,B,mimosa,label_bin,NAFIM,44,mimosa,gold,3,0.8004650120840289,0.8144382452066046,0.8516483516483516,4.98
+mimosa__label_bin__NAFIM__s44,B,mimosa,label_bin,NAFIM,44,mimosa,surya,3,0.8004650120840289,0.7966287878787879,0.8379120879120879,4.98
+mimosa__label_bin__NAFIM__s44,B,mimosa,label_bin,NAFIM,44,mimosa,easyocr,3,0.8004650120840289,0.7849437773966076,0.8296703296703297,4.98
+mimosa__label_bin__NAFIM__s44,B,mimosa,label_bin,NAFIM,44,mimosa,ocr,3,0.8004650120840289,0.7966287878787879,0.8379120879120879,4.98
+mimosa__label_bin__NAFIM__s44,B,mimosa,label_bin,NAFIM,44,bhm,ocr,3,0.8004650120840289,0.6729289843614646,0.6751054852320675,4.98
+mimosa__label_bin__NAFIM__s44,B,mimosa,label_bin,NAFIM,44,banglaabusememe,ocr,3,0.8004650120840289,0.42519498553019197,0.45859085290482077,4.98
+bhm__label__NAFIM_w_o_gate__s42,C,bhm,label,NAFIM w/o gate,42,bhm,gold,3,0.7522725051536249,0.7295988029552043,0.7426160337552743,8.01
+bhm__label__NAFIM_w_o_gate__s42,C,bhm,label,NAFIM w/o gate,42,bhm,surya,3,0.7522725051536249,0.7185737375070093,0.729957805907173,8.01
+bhm__label__NAFIM_w_o_gate__s42,C,bhm,label,NAFIM w/o gate,42,bhm,easyocr,3,0.7522725051536249,0.7096557542540997,0.7229254571026723,8.01
+bhm__label__NAFIM_w_o_gate__s42,C,bhm,label,NAFIM w/o gate,42,bhm,ocr,3,0.7522725051536249,0.7202038911564065,0.7313642756680732,8.01
+bhm__label__NAFIM_w_o_gate__s42,C,bhm,label,NAFIM w/o gate,42,mimosa,ocr,3,0.7522725051536249,0.6488839285714285,0.6675824175824175,8.01
+bhm__label__NAFIM_w_o_gate__s42,C,bhm,label,NAFIM w/o gate,42,banglaabusememe,ocr,3,0.7522725051536249,0.6065463955366319,0.6069221260815822,8.01
+mimosa__label__NAFIM_w_o_gate__s42,C,mimosa,label,NAFIM w/o gate,42,mimosa,gold,3,0.7627679131019037,0.7917869620419421,0.7884615384615384,4.91
+mimosa__label__NAFIM_w_o_gate__s42,C,mimosa,label,NAFIM w/o gate,42,mimosa,surya,3,0.7627679131019037,0.7811609028188038,0.7802197802197802,4.91
+mimosa__label__NAFIM_w_o_gate__s42,C,mimosa,label,NAFIM w/o gate,42,mimosa,easyocr,3,0.7627679131019037,0.7792154382934069,0.7747252747252747,4.91
+mimosa__label__NAFIM_w_o_gate__s42,C,mimosa,label,NAFIM w/o gate,42,mimosa,ocr,3,0.7627679131019037,0.7826533233653258,0.7815934065934066,4.91
+mimosa__label_bin__NAFIM_w_o_gate__s42,C,mimosa,label_bin,NAFIM w/o gate,42,mimosa,gold,5,0.7829687759792083,0.8042503854455751,0.8502747252747253,5.0
+mimosa__label_bin__NAFIM_w_o_gate__s42,C,mimosa,label_bin,NAFIM w/o gate,42,mimosa,surya,5,0.7829687759792083,0.8018035816249581,0.8447802197802198,5.0
+mimosa__label_bin__NAFIM_w_o_gate__s42,C,mimosa,label_bin,NAFIM w/o gate,42,mimosa,easyocr,5,0.7829687759792083,0.8021655285550096,0.8502747252747253,5.0
+mimosa__label_bin__NAFIM_w_o_gate__s42,C,mimosa,label_bin,NAFIM w/o gate,42,mimosa,ocr,5,0.7829687759792083,0.8018035816249581,0.8447802197802198,5.0
+mimosa__label_bin__NAFIM_w_o_gate__s42,C,mimosa,label_bin,NAFIM w/o gate,42,bhm,ocr,5,0.7829687759792083,0.6636627444744793,0.6652601969057665,5.0
+mimosa__label_bin__NAFIM_w_o_gate__s42,C,mimosa,label_bin,NAFIM w/o gate,42,banglaabusememe,ocr,5,0.7829687759792083,0.4073066662315518,0.44499381953028433,5.0
+bhm__label__NAFIM_w_o_reliability_loss__s42,C,bhm,label,NAFIM w/o reliability loss,42,bhm,gold,1,0.7540710354006398,0.7044954995378574,0.7172995780590717,4.85
+bhm__label__NAFIM_w_o_reliability_loss__s42,C,bhm,label,NAFIM w/o reliability loss,42,bhm,surya,1,0.7540710354006398,0.7044954995378574,0.7172995780590717,4.85
+bhm__label__NAFIM_w_o_reliability_loss__s42,C,bhm,label,NAFIM w/o reliability loss,42,bhm,easyocr,1,0.7540710354006398,0.7044954995378574,0.7172995780590717,4.85
+bhm__label__NAFIM_w_o_reliability_loss__s42,C,bhm,label,NAFIM w/o reliability loss,42,bhm,ocr,1,0.7540710354006398,0.7044954995378574,0.7172995780590717,4.85
+bhm__label__NAFIM_w_o_reliability_loss__s42,C,bhm,label,NAFIM w/o reliability loss,42,mimosa,ocr,1,0.7540710354006398,0.6070927414210996,0.6222527472527473,4.85
+bhm__label__NAFIM_w_o_reliability_loss__s42,C,bhm,label,NAFIM w/o reliability loss,42,banglaabusememe,ocr,1,0.7540710354006398,0.5653582129875234,0.5673671199011124,4.85
+mimosa__label__NAFIM_w_o_reliability_loss__s42,C,mimosa,label,NAFIM w/o reliability loss,42,mimosa,gold,3,0.7635598613369828,0.7831536959193354,0.7760989010989011,4.9
+mimosa__label__NAFIM_w_o_reliability_loss__s42,C,mimosa,label,NAFIM w/o reliability loss,42,mimosa,surya,3,0.7635598613369828,0.7578761327493702,0.7527472527472527,4.9
+mimosa__label__NAFIM_w_o_reliability_loss__s42,C,mimosa,label,NAFIM w/o reliability loss,42,mimosa,easyocr,3,0.7635598613369828,0.7692564290244522,0.7637362637362637,4.9
+mimosa__label__NAFIM_w_o_reliability_loss__s42,C,mimosa,label,NAFIM w/o reliability loss,42,mimosa,ocr,3,0.7635598613369828,0.7578761327493702,0.7527472527472527,4.9
+mimosa__label_bin__NAFIM_w_o_reliability_loss__s42,C,mimosa,label_bin,NAFIM w/o reliability loss,42,mimosa,gold,4,0.788330775186906,0.811847499543561,0.8502747252747253,4.89
+mimosa__label_bin__NAFIM_w_o_reliability_loss__s42,C,mimosa,label_bin,NAFIM w/o reliability loss,42,mimosa,surya,4,0.788330775186906,0.8021061091347461,0.842032967032967,4.89
+mimosa__label_bin__NAFIM_w_o_reliability_loss__s42,C,mimosa,label_bin,NAFIM w/o reliability loss,42,mimosa,easyocr,4,0.788330775186906,0.8008672218218318,0.842032967032967,4.89
+mimosa__label_bin__NAFIM_w_o_reliability_loss__s42,C,mimosa,label_bin,NAFIM w/o reliability loss,42,mimosa,ocr,4,0.788330775186906,0.8021061091347461,0.842032967032967,4.89
+mimosa__label_bin__NAFIM_w_o_reliability_loss__s42,C,mimosa,label_bin,NAFIM w/o reliability loss,42,bhm,ocr,4,0.788330775186906,0.6743913047825696,0.6779184247538678,4.89
+mimosa__label_bin__NAFIM_w_o_reliability_loss__s42,C,mimosa,label_bin,NAFIM w/o reliability loss,42,banglaabusememe,ocr,4,0.788330775186906,0.45673086892371495,0.4796044499381953,4.89
+bhm__label__NAFIM_w_o_consistency__s42,C,bhm,label,NAFIM w/o consistency,42,bhm,gold,3,0.7591727321391856,0.7285223367697594,0.7426160337552743,8.09
+bhm__label__NAFIM_w_o_consistency__s42,C,bhm,label,NAFIM w/o consistency,42,bhm,surya,3,0.7591727321391856,0.7162568726905796,0.7285513361462729,8.09
+bhm__label__NAFIM_w_o_consistency__s42,C,bhm,label,NAFIM w/o consistency,42,bhm,easyocr,3,0.7591727321391856,0.7257128480375713,0.7412095639943741,8.09
+bhm__label__NAFIM_w_o_consistency__s42,C,bhm,label,NAFIM w/o consistency,42,bhm,ocr,3,0.7591727321391856,0.7162568726905796,0.7285513361462729,8.09
+bhm__label__NAFIM_w_o_consistency__s42,C,bhm,label,NAFIM w/o consistency,42,mimosa,ocr,3,0.7591727321391856,0.6140801815283198,0.6277472527472527,8.09
+bhm__label__NAFIM_w_o_consistency__s42,C,bhm,label,NAFIM w/o consistency,42,banglaabusememe,ocr,3,0.7591727321391856,0.6198103250360167,0.622991347342398,8.09
+mimosa__label__NAFIM_w_o_consistency__s42,C,mimosa,label,NAFIM w/o consistency,42,mimosa,gold,5,0.7665340535750861,0.7791188507077684,0.7733516483516484,4.97
+mimosa__label__NAFIM_w_o_consistency__s42,C,mimosa,label,NAFIM w/o consistency,42,mimosa,surya,5,0.7665340535750861,0.7667322633037019,0.760989010989011,4.97
+mimosa__label__NAFIM_w_o_consistency__s42,C,mimosa,label,NAFIM w/o consistency,42,mimosa,easyocr,5,0.7665340535750861,0.7739453276364047,0.7664835164835165,4.97
+mimosa__label__NAFIM_w_o_consistency__s42,C,mimosa,label,NAFIM w/o consistency,42,mimosa,ocr,5,0.7665340535750861,0.7680901523048547,0.7623626373626373,4.97
+mimosa__label_bin__NAFIM_w_o_consistency__s42,C,mimosa,label_bin,NAFIM w/o consistency,42,mimosa,gold,4,0.7968698002144805,0.811085646379764,0.853021978021978,5.0
+mimosa__label_bin__NAFIM_w_o_consistency__s42,C,mimosa,label_bin,NAFIM w/o consistency,42,mimosa,surya,4,0.7968698002144805,0.8030826385547649,0.8447802197802198,5.0
+mimosa__label_bin__NAFIM_w_o_consistency__s42,C,mimosa,label_bin,NAFIM w/o consistency,42,mimosa,easyocr,4,0.7968698002144805,0.7981779422027206,0.8406593406593407,5.0
+mimosa__label_bin__NAFIM_w_o_consistency__s42,C,mimosa,label_bin,NAFIM w/o consistency,42,mimosa,ocr,4,0.7968698002144805,0.8016576328543978,0.8434065934065934,5.0
+mimosa__label_bin__NAFIM_w_o_consistency__s42,C,mimosa,label_bin,NAFIM w/o consistency,42,bhm,ocr,4,0.7968698002144805,0.6729289843614646,0.6751054852320675,5.0
+mimosa__label_bin__NAFIM_w_o_consistency__s42,C,mimosa,label_bin,NAFIM w/o consistency,42,banglaabusememe,ocr,4,0.7968698002144805,0.43944393567174955,0.46971569839307786,5.0
+bhm__label__NAFIM_w_o_synthetic_noise__s42,C,bhm,label,NAFIM w/o synthetic noise,42,bhm,gold,3,0.7594702534241349,0.73846897783068,0.749648382559775,8.04
+bhm__label__NAFIM_w_o_synthetic_noise__s42,C,bhm,label,NAFIM w/o synthetic noise,42,bhm,surya,3,0.7594702534241349,0.7270441861233117,0.7383966244725738,8.04
+bhm__label__NAFIM_w_o_synthetic_noise__s42,C,bhm,label,NAFIM w/o synthetic noise,42,bhm,easyocr,3,0.7594702534241349,0.7400956206565401,0.7510548523206751,8.04
+bhm__label__NAFIM_w_o_synthetic_noise__s42,C,bhm,label,NAFIM w/o synthetic noise,42,bhm,ocr,3,0.7594702534241349,0.7270441861233117,0.7383966244725738,8.04
+bhm__label__NAFIM_w_o_synthetic_noise__s42,C,bhm,label,NAFIM w/o synthetic noise,42,mimosa,ocr,3,0.7594702534241349,0.6411283910568331,0.6593406593406593,8.04
+bhm__label__NAFIM_w_o_synthetic_noise__s42,C,bhm,label,NAFIM w/o synthetic noise,42,banglaabusememe,ocr,3,0.7594702534241349,0.603941007282296,0.6044499381953028,8.04
+mimosa__label__NAFIM_w_o_synthetic_noise__s42,C,mimosa,label,NAFIM w/o synthetic noise,42,mimosa,gold,5,0.7610087085197982,0.7784925859415706,0.7706043956043956,4.98
+mimosa__label__NAFIM_w_o_synthetic_noise__s42,C,mimosa,label,NAFIM w/o synthetic noise,42,mimosa,surya,5,0.7610087085197982,0.7696259009449994,0.7637362637362637,4.98
+mimosa__label__NAFIM_w_o_synthetic_noise__s42,C,mimosa,label,NAFIM w/o synthetic noise,42,mimosa,easyocr,5,0.7610087085197982,0.7778211170827035,0.7692307692307693,4.98
+mimosa__label__NAFIM_w_o_synthetic_noise__s42,C,mimosa,label,NAFIM w/o synthetic noise,42,mimosa,ocr,5,0.7610087085197982,0.7710061315525862,0.7651098901098901,4.98
+mimosa__label_bin__NAFIM_w_o_synthetic_noise__s42,C,mimosa,label_bin,NAFIM w/o synthetic noise,42,mimosa,gold,5,0.7971335223300425,0.8131615902377609,0.8543956043956044,4.98
+mimosa__label_bin__NAFIM_w_o_synthetic_noise__s42,C,mimosa,label_bin,NAFIM w/o synthetic noise,42,mimosa,surya,5,0.7971335223300425,0.811085646379764,0.853021978021978,4.98
+mimosa__label_bin__NAFIM_w_o_synthetic_noise__s42,C,mimosa,label_bin,NAFIM w/o synthetic noise,42,mimosa,easyocr,5,0.7971335223300425,0.7884554767533491,0.8379120879120879,4.98
+mimosa__label_bin__NAFIM_w_o_synthetic_noise__s42,C,mimosa,label_bin,NAFIM w/o synthetic noise,42,mimosa,ocr,5,0.7971335223300425,0.809636337223379,0.8516483516483516,4.98
+mimosa__label_bin__NAFIM_w_o_synthetic_noise__s42,C,mimosa,label_bin,NAFIM w/o synthetic noise,42,bhm,ocr,5,0.7971335223300425,0.6764437608427378,0.6779184247538678,4.98
+mimosa__label_bin__NAFIM_w_o_synthetic_noise__s42,C,mimosa,label_bin,NAFIM w/o synthetic noise,42,banglaabusememe,ocr,5,0.7971335223300425,0.4306421828794277,0.4610630407911001,4.98
+bhm__label__NAFIM_w_o_gate__s43,C,bhm,label,NAFIM w/o gate,43,bhm,gold,2,0.7570380551162139,0.717418376518689,0.7257383966244726,6.48
+bhm__label__NAFIM_w_o_gate__s43,C,bhm,label,NAFIM w/o gate,43,bhm,surya,2,0.7570380551162139,0.716940011820331,0.7271448663853727,6.48
+bhm__label__NAFIM_w_o_gate__s43,C,bhm,label,NAFIM w/o gate,43,bhm,easyocr,2,0.7570380551162139,0.716940011820331,0.7271448663853727,6.48
+bhm__label__NAFIM_w_o_gate__s43,C,bhm,label,NAFIM w/o gate,43,bhm,ocr,2,0.7570380551162139,0.7185544491503697,0.7285513361462729,6.48
+bhm__label__NAFIM_w_o_gate__s43,C,bhm,label,NAFIM w/o gate,43,mimosa,ocr,2,0.7570380551162139,0.6498653328203154,0.6703296703296703,6.48
+bhm__label__NAFIM_w_o_gate__s43,C,bhm,label,NAFIM w/o gate,43,banglaabusememe,ocr,2,0.7570380551162139,0.5831815937169862,0.5834363411619283,6.48
+mimosa__label__NAFIM_w_o_gate__s43,C,mimosa,label,NAFIM w/o gate,43,mimosa,gold,5,0.7672714131650004,0.7804388316864255,0.7747252747252747,5.01
+mimosa__label__NAFIM_w_o_gate__s43,C,mimosa,label,NAFIM w/o gate,43,mimosa,surya,5,0.7672714131650004,0.7560115629693173,0.7486263736263736,5.01
+mimosa__label__NAFIM_w_o_gate__s43,C,mimosa,label,NAFIM w/o gate,43,mimosa,easyocr,5,0.7672714131650004,0.7767287039043296,0.7706043956043956,5.01
+mimosa__label__NAFIM_w_o_gate__s43,C,mimosa,label,NAFIM w/o gate,43,mimosa,ocr,5,0.7672714131650004,0.7560115629693173,0.7486263736263736,5.01
+mimosa__label_bin__NAFIM_w_o_gate__s43,C,mimosa,label_bin,NAFIM w/o gate,43,mimosa,gold,5,0.7893009026728572,0.8196302649132838,0.8571428571428571,5.03
+mimosa__label_bin__NAFIM_w_o_gate__s43,C,mimosa,label_bin,NAFIM w/o gate,43,mimosa,surya,5,0.7893009026728572,0.8088193840453136,0.8502747252747253,5.03
+mimosa__label_bin__NAFIM_w_o_gate__s43,C,mimosa,label_bin,NAFIM w/o gate,43,mimosa,easyocr,5,0.7893009026728572,0.8012616143593944,0.8461538461538461,5.03
+mimosa__label_bin__NAFIM_w_o_gate__s43,C,mimosa,label_bin,NAFIM w/o gate,43,mimosa,ocr,5,0.7893009026728572,0.8073796122576611,0.8489010989010989,5.03
+mimosa__label_bin__NAFIM_w_o_gate__s43,C,mimosa,label_bin,NAFIM w/o gate,43,bhm,ocr,5,0.7893009026728572,0.6733582993415099,0.6751054852320675,5.03
+mimosa__label_bin__NAFIM_w_o_gate__s43,C,mimosa,label_bin,NAFIM w/o gate,43,banglaabusememe,ocr,5,0.7893009026728572,0.4375101833404583,0.4672435105067985,5.03
+bhm__label__NAFIM_w_o_reliability_loss__s43,C,bhm,label,NAFIM w/o reliability loss,43,bhm,gold,2,0.7594102944582836,0.7131445170660857,0.7187060478199718,6.4
+bhm__label__NAFIM_w_o_reliability_loss__s43,C,bhm,label,NAFIM w/o reliability loss,43,bhm,surya,2,0.7594102944582836,0.7074074074074074,0.7130801687763713,6.4
+bhm__label__NAFIM_w_o_reliability_loss__s43,C,bhm,label,NAFIM w/o reliability loss,43,bhm,easyocr,2,0.7594102944582836,0.712187697339659,0.7187060478199718,6.4
+bhm__label__NAFIM_w_o_reliability_loss__s43,C,bhm,label,NAFIM w/o reliability loss,43,bhm,ocr,2,0.7594102944582836,0.7074074074074074,0.7130801687763713,6.4
+bhm__label__NAFIM_w_o_reliability_loss__s43,C,bhm,label,NAFIM w/o reliability loss,43,mimosa,ocr,2,0.7594102944582836,0.6902690690392987,0.717032967032967,6.4
+bhm__label__NAFIM_w_o_reliability_loss__s43,C,bhm,label,NAFIM w/o reliability loss,43,banglaabusememe,ocr,2,0.7594102944582836,0.5617792875504958,0.5624227441285538,6.4
+mimosa__label__NAFIM_w_o_reliability_loss__s43,C,mimosa,label,NAFIM w/o reliability loss,43,mimosa,gold,3,0.7639631903806111,0.7930959570436897,0.7870879120879121,4.81
+mimosa__label__NAFIM_w_o_reliability_loss__s43,C,mimosa,label,NAFIM w/o reliability loss,43,mimosa,surya,3,0.7639631903806111,0.771278381536823,0.7651098901098901,4.81
+mimosa__label__NAFIM_w_o_reliability_loss__s43,C,mimosa,label,NAFIM w/o reliability loss,43,mimosa,easyocr,3,0.7639631903806111,0.7795035052012406,0.771978021978022,4.81
+mimosa__label__NAFIM_w_o_reliability_loss__s43,C,mimosa,label,NAFIM w/o reliability loss,43,mimosa,ocr,3,0.7639631903806111,0.7725741845970032,0.7664835164835165,4.81
+mimosa__label_bin__NAFIM_w_o_reliability_loss__s43,C,mimosa,label_bin,NAFIM w/o reliability loss,43,mimosa,gold,4,0.7822827510637079,0.792626849451478,0.8365384615384616,4.78
+mimosa__label_bin__NAFIM_w_o_reliability_loss__s43,C,mimosa,label_bin,NAFIM w/o reliability loss,43,mimosa,surya,4,0.7822827510637079,0.794450927982532,0.8351648351648352,4.78
+mimosa__label_bin__NAFIM_w_o_reliability_loss__s43,C,mimosa,label_bin,NAFIM w/o reliability loss,43,mimosa,easyocr,4,0.7822827510637079,0.7945858022539793,0.8365384615384616,4.78
+mimosa__label_bin__NAFIM_w_o_reliability_loss__s43,C,mimosa,label_bin,NAFIM w/o reliability loss,43,mimosa,ocr,4,0.7822827510637079,0.794450927982532,0.8351648351648352,4.78
+mimosa__label_bin__NAFIM_w_o_reliability_loss__s43,C,mimosa,label_bin,NAFIM w/o reliability loss,43,bhm,ocr,4,0.7822827510637079,0.6630948967889908,0.6652601969057665,4.78
+mimosa__label_bin__NAFIM_w_o_reliability_loss__s43,C,mimosa,label_bin,NAFIM w/o reliability loss,43,banglaabusememe,ocr,4,0.7822827510637079,0.43689487381868275,0.4647713226205192,4.78
