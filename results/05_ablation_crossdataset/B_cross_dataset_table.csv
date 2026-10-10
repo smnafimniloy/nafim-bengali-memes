@@ -1,0 +1,7 @@
+train_on,model,banglaabusememe,bhm,mimosa
+bhm,Fusion (mixed text),0.5745 ± 0.0186,0.7145 ± 0.0213,0.6403 ± 0.0007
+bhm,NAFIM,0.6049 ± 0.0210,0.7201 ± 0.0132,0.6438 ± 0.0045
+bhm,NAFIM + image fallback,0.6049 ± 0.0112,0.7241 ± 0.0037,0.6253 ± 0.0165
+mimosa,Fusion (mixed text),0.4226 ± 0.0246,0.6709 ± 0.0162,0.7962 ± 0.0028
+mimosa,NAFIM,0.4239 ± 0.0066,0.6647 ± 0.0085,0.8031 ± 0.0087
+mimosa,NAFIM + image fallback,0.3993 ± 0.0047,0.6558 ± 0.0024,0.8005 ± 0.0001

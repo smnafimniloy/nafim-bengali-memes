@@ -1,0 +1,37 @@
+dataset,task,ablation,metric,f1,delta_vs_full,p_value
+bhm,label,NAFIM w/o gate,"mean(gold,surya,easyocr)",0.7241298968899739,0.002026214245574439,0.8533144781262625
+bhm,label,NAFIM w/o gate,"worst(gold,surya,easyocr)",0.7194237927616994,0.0010715643669081398,0.9298419555396649
+bhm,label,NAFIM w/o gate,high-CER OCR (≥0.5),0.7113281159063183,-3.029651938043128e-05,0.998002303425843
+bhm,label,NAFIM w/o reliability loss,"mean(gold,surya,easyocr)",0.7148222903573512,-0.007281392287048161,0.6063374285492175
+bhm,label,NAFIM w/o reliability loss,"worst(gold,surya,easyocr)",0.7104539574764575,-0.007898270918333764,0.4620191240273315
+bhm,label,NAFIM w/o reliability loss,high-CER OCR (≥0.5),0.7040192594754003,-0.007339152950298411,0.7179225834565656
+bhm,label,NAFIM w/o consistency,"mean(gold,surya,easyocr)",0.7284114267659852,0.0063077441215858565,0.534462151178258
+bhm,label,NAFIM w/o consistency,"worst(gold,surya,easyocr)",0.7203568476095956,0.0020046192148042894,0.8348739941430819
+bhm,label,NAFIM w/o consistency,high-CER OCR (≥0.5),0.679412627840074,-0.031945784585624616,0.0798702181185373
+bhm,label,NAFIM w/o synthetic noise,"mean(gold,surya,easyocr)",0.7293648990609508,0.0072612164165513455,0.17466426188789586
+bhm,label,NAFIM w/o synthetic noise,"worst(gold,surya,easyocr)",0.7235616209765894,0.005209392581798126,0.32212582697852654
+bhm,label,NAFIM w/o synthetic noise,high-CER OCR (≥0.5),0.7225303884300662,0.01117197600436759,0.33298029303157706
+mimosa,label,NAFIM w/o gate,"mean(gold,surya,easyocr)",0.7781620340122407,0.0018918543608181053,0.8471269118190116
+mimosa,label,NAFIM w/o gate,"worst(gold,surya,easyocr)",0.7683644335797544,0.0019865820162886147,0.8676894466233389
+mimosa,label,NAFIM w/o gate,high-CER OCR (≥0.5),0.7543899995991143,0.014870351962731157,0.5055873375157905
+mimosa,label,NAFIM w/o reliability loss,"mean(gold,surya,easyocr)",0.7725314709480594,-0.003738708703363162,0.3609962792834198
+mimosa,label,NAFIM w/o reliability loss,"worst(gold,surya,easyocr)",0.7621117318091885,-0.004266119754277338,0.024748201687658195
+mimosa,label,NAFIM w/o reliability loss,high-CER OCR (≥0.5),0.7306873912117972,-0.008832256424586182,0.49978443761934555
+mimosa,label,NAFIM w/o consistency,"mean(gold,surya,easyocr)",0.7723163530565426,-0.003953826594880046,0.47181734331546776
+mimosa,label,NAFIM w/o consistency,"worst(gold,surya,easyocr)",0.7650902949015682,-0.0012875566618976524,0.7034203810311908
+mimosa,label,NAFIM w/o consistency,high-CER OCR (≥0.5),0.7482355428616732,0.008715895225289927,0.4742667423592348
+mimosa,label,NAFIM w/o synthetic noise,"mean(gold,surya,easyocr)",0.7784845024567186,0.002214322805296024,0.7076621233327751
+mimosa,label,NAFIM w/o synthetic noise,"worst(gold,surya,easyocr)",0.771728028346348,0.005350176782882299,0.5167647944686364
+mimosa,label,NAFIM w/o synthetic noise,high-CER OCR (≥0.5),0.746871713451078,0.00735206581469483,0.6282753945030097
+mimosa,label_bin,NAFIM w/o gate,"mean(gold,surya,easyocr)",0.8033826887174323,-0.0024598980887625688,0.44676250837280496
+mimosa,label_bin,NAFIM w/o gate,"worst(gold,surya,easyocr)",0.7968102101165678,0.0017965404810730279,0.06106519723819358
+mimosa,label_bin,NAFIM w/o gate,high-CER OCR (≥0.5),0.7507651485843208,-0.005542019886434472,0.34136353970110345
+mimosa,label_bin,NAFIM w/o reliability loss,"mean(gold,surya,easyocr)",0.8006852466311712,-0.0051573401750235615,0.4520600818020376
+mimosa,label_bin,NAFIM w/o reliability loss,"worst(gold,surya,easyocr)",0.7982809006233222,0.003267230987827552,0.6887025117983335
+mimosa,label_bin,NAFIM w/o reliability loss,high-CER OCR (≥0.5),0.7468615928471302,-0.009445575623625099,0.4810992840148657
+mimosa,label_bin,NAFIM w/o consistency,"mean(gold,surya,easyocr)",0.7953218613807436,-0.010520725425451238,0.292145672320587
+mimosa,label_bin,NAFIM w/o consistency,"worst(gold,surya,easyocr)",0.7874878439995753,-0.007525825635919377,0.45838213510712167
+mimosa,label_bin,NAFIM w/o consistency,high-CER OCR (≥0.5),0.737070769947746,-0.01923639852300918,0.3218047282310227
+mimosa,label_bin,NAFIM w/o synthetic noise,"mean(gold,surya,easyocr)",0.8022008686266621,-0.003641718179532775,0.44043942914426326
+mimosa,label_bin,NAFIM w/o synthetic noise,"worst(gold,surya,easyocr)",0.7944667723690566,-0.0005468972664381955,0.9508790797367833
+mimosa,label_bin,NAFIM w/o synthetic noise,high-CER OCR (≥0.5),0.7512189399895846,-0.005088228481170742,0.40319202544267385

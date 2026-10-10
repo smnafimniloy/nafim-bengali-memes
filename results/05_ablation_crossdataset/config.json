@@ -1,0 +1,164 @@
+{
+  "final_model": "NAFIM",
+  "final_model_selection": "highest mean validation macro-F1 (gold/Surya/EasyOCR) over tasks and seeds",
+  "variants": {
+    "Fusion (mixed text)": {
+      "nafim": false,
+      "gate": false,
+      "lrel": 0.0,
+      "lcons": 0.0,
+      "fallback": false,
+      "mix": {
+        "gold": 0.3333333333333333,
+        "surya": 0.3333333333333333,
+        "easyocr": 0.3333333333333333
+      }
+    },
+    "NAFIM": {
+      "nafim": true,
+      "gate": true,
+      "lrel": 0.5,
+      "lcons": 1.0,
+      "fallback": false,
+      "mix": {
+        "gold": 0.25,
+        "surya": 0.25,
+        "easyocr": 0.25,
+        "synth": 0.25
+      }
+    },
+    "NAFIM + image fallback": {
+      "nafim": true,
+      "gate": true,
+      "lrel": 0.5,
+      "lcons": 1.0,
+      "fallback": true,
+      "mix": {
+        "gold": 0.25,
+        "surya": 0.25,
+        "easyocr": 0.25,
+        "synth": 0.25
+      }
+    },
+    "NAFIM w/o gate": {
+      "nafim": true,
+      "gate": false,
+      "lrel": 0.5,
+      "lcons": 1.0,
+      "fallback": false,
+      "mix": {
+        "gold": 0.25,
+        "surya": 0.25,
+        "easyocr": 0.25,
+        "synth": 0.25
+      }
+    },
+    "NAFIM w/o reliability loss": {
+      "nafim": true,
+      "gate": true,
+      "lrel": 0.0,
+      "lcons": 1.0,
+      "fallback": false,
+      "mix": {
+        "gold": 0.25,
+        "surya": 0.25,
+        "easyocr": 0.25,
+        "synth": 0.25
+      }
+    },
+    "NAFIM w/o consistency": {
+      "nafim": true,
+      "gate": true,
+      "lrel": 0.5,
+      "lcons": 0.0,
+      "fallback": false,
+      "mix": {
+        "gold": 0.25,
+        "surya": 0.25,
+        "easyocr": 0.25,
+        "synth": 0.25
+      }
+    },
+    "NAFIM w/o synthetic noise": {
+      "nafim": true,
+      "gate": true,
+      "lrel": 0.5,
+      "lcons": 1.0,
+      "fallback": false,
+      "mix": {
+        "gold": 0.3333333333333333,
+        "surya": 0.3333333333333333,
+        "easyocr": 0.3333333333333333
+      }
+    }
+  },
+  "lambda_img_aux": 0.5,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "ablation_seeds": [
+    42,
+    43,
+    44
+  ],
+  "cross_dataset_seeds": [
+    42,
+    43,
+    44
+  ],
+  "cross_dataset": {
+    "train": [
+      [
+        "bhm",
+        "label"
+      ],
+      [
+        "mimosa",
+        "label_bin"
+      ]
+    ],
+    "test_text": {
+      "bhm": "text_ocr",
+      "mimosa": "text_ocr",
+      "banglaabusememe": "text"
+    },
+    "label": "label_bin, test split",
+    "quality_feature_standardisation": "statistics of the training dataset"
+  },
+  "bootstrap": {
+    "n": 2000,
+    "unit": "test memes (paired, same resample for both models), metric averaged over seeds"
+  },
+  "notes": [
+    "'NAFIM' and 'Fusion (mixed text)' main 5-seed results come from notebook 04; they are re-trained here only for cross-dataset tests",
+    "'NAFIM w/o consistency' keeps the two-view (gold + noisy) cross-entropy and removes only the KL term"
+  ],
+  "inherited": {
+    "nb02_hyperparameters": {
+      "max_len": 128,
+      "batch_size": 16,
+      "max_epochs": 5,
+      "patience": 2,
+      "lr_encoder": 2e-05,
+      "lr_head": 0.0005,
+      "weight_decay": 0.01,
+      "warmup": 0.1,
+      "dropout": 0.1,
+      "pooling": "mean",
+      "amp": "torch.bfloat16"
+    },
+    "encoder": "xlm-roberta-base",
+    "word_embeddings_frozen": true
+  },
+  "versions": {
+    "python": "3.10.22",
+    "torch": "2.5.1+cu121",
+    "transformers": "4.46.3",
+    "sklearn": "1.7.2",
+    "gpu": "NVIDIA GeForce RTX 3050"
+  }
+}

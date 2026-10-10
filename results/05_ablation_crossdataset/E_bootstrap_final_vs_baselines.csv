@@ -1,0 +1,28 @@
+dataset,task,final,vs,metric,delta,ci95_low,ci95_high,p_value,n_seeds,result
+bhm,label,NAFIM,Fusion (train gold),"mean(gold,surya,easyocr)",0.01185137672944625,0.0009048293084663097,0.02347115883655519,0.04,5,better
+bhm,label,NAFIM,Fusion (train gold),"worst(gold,surya,easyocr)",0.016672230858603476,0.00190351369786812,0.028281296011466447,0.024,5,better
+bhm,label,NAFIM,Fusion (train gold),high-CER OCR (≥0.5),0.011684745939722907,-0.01471846658807673,0.03968221975662411,0.386,5,n.s.
+bhm,label,NAFIM,Fusion (train OCR),"mean(gold,surya,easyocr)",0.010758792345812895,-0.0030149131366656616,0.024799041775971357,0.128,5,n.s.
+bhm,label,NAFIM,Fusion (train OCR),"worst(gold,surya,easyocr)",0.01379851189840664,-0.0019926388103447237,0.028632424528357788,0.079,5,n.s.
+bhm,label,NAFIM,Fusion (train OCR),high-CER OCR (≥0.5),0.0087815637763895,-0.020008697525425816,0.037461708750806906,0.555,5,n.s.
+bhm,label,NAFIM,Fusion (mixed text),"mean(gold,surya,easyocr)",0.0017806500141320791,-0.007363789116029773,0.010742423043131626,0.705,5,n.s.
+bhm,label,NAFIM,Fusion (mixed text),"worst(gold,surya,easyocr)",0.001158785563032838,-0.010154878896402503,0.011415158238116455,0.892,5,n.s.
+bhm,label,NAFIM,Fusion (mixed text),high-CER OCR (≥0.5),0.009745385703942344,-0.019310814150941907,0.038580759306275095,0.481,5,n.s.
+mimosa,label,NAFIM,Fusion (train gold),"mean(gold,surya,easyocr)",0.024482733692475667,0.01413786680766566,0.034779354673033405,0.0,5,better
+mimosa,label,NAFIM,Fusion (train gold),"worst(gold,surya,easyocr)",0.03301205011803632,0.019802273765943696,0.04667113065214741,0.0,5,better
+mimosa,label,NAFIM,Fusion (train gold),high-CER OCR (≥0.5),0.04349785302407838,0.01836192375578031,0.07102713979097726,0.001,5,better
+mimosa,label,NAFIM,Fusion (train OCR),"mean(gold,surya,easyocr)",0.02439695342082082,0.011789254773832946,0.037011679567599154,0.0,5,better
+mimosa,label,NAFIM,Fusion (train OCR),"worst(gold,surya,easyocr)",0.03045086325635682,0.012418479851311231,0.046983076954738905,0.001,5,better
+mimosa,label,NAFIM,Fusion (train OCR),high-CER OCR (≥0.5),-0.001611392923221544,-0.03271230447986738,0.03009807501430493,0.917,5,n.s.
+mimosa,label,NAFIM,Fusion (mixed text),"mean(gold,surya,easyocr)",0.005991832123853458,-0.002216503436744488,0.014369700477541355,0.144,5,n.s.
+mimosa,label,NAFIM,Fusion (mixed text),"worst(gold,surya,easyocr)",0.005673266146767997,-0.0041358245873598905,0.01631847995281539,0.28,5,n.s.
+mimosa,label,NAFIM,Fusion (mixed text),high-CER OCR (≥0.5),0.003189387028754709,-0.01876795448567494,0.025392982766904666,0.807,5,n.s.
+mimosa,label_bin,NAFIM,Fusion (train gold),"mean(gold,surya,easyocr)",0.018453405517406485,0.00450662352341698,0.03257143490971776,0.009,5,better
+mimosa,label_bin,NAFIM,Fusion (train gold),"worst(gold,surya,easyocr)",0.03677629935210791,0.011016493191393908,0.060347568883989906,0.003,5,better
+mimosa,label_bin,NAFIM,Fusion (train gold),high-CER OCR (≥0.5),0.017638720627217053,-0.02258780330513031,0.057498507498307726,0.373,5,n.s.
+mimosa,label_bin,NAFIM,Fusion (train OCR),"mean(gold,surya,easyocr)",0.012843383110390794,0.0006632601695107128,0.024896942575045388,0.038,5,better
+mimosa,label_bin,NAFIM,Fusion (train OCR),"worst(gold,surya,easyocr)",0.011098334813035238,-0.0024465704383296147,0.02920862147986463,0.088,5,n.s.
+mimosa,label_bin,NAFIM,Fusion (train OCR),high-CER OCR (≥0.5),-0.006651804306021303,-0.03764592132546385,0.022878838231120663,0.662,5,n.s.
+mimosa,label_bin,NAFIM,Fusion (mixed text),"mean(gold,surya,easyocr)",0.013417788309534107,0.004334247653741674,0.02249679792637602,0.001,5,better
+mimosa,label_bin,NAFIM,Fusion (mixed text),"worst(gold,surya,easyocr)",0.010357745025517007,0.0009033382148484926,0.021958800534863446,0.033,5,better
+mimosa,label_bin,NAFIM,Fusion (mixed text),high-CER OCR (≥0.5),0.005324547488195552,-0.017346200733420362,0.028588358998056517,0.639,5,n.s.

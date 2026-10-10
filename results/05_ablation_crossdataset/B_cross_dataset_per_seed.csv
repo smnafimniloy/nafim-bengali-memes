@@ -1,0 +1,55 @@
+model,train_on,test_on,seed,f1,in_domain
+Fusion (mixed text),bhm,bhm,42,0.7299791948746739,True
+Fusion (mixed text),bhm,mimosa,42,0.640901620192394,False
+Fusion (mixed text),bhm,banglaabusememe,42,0.589159191864805,False
+Fusion (mixed text),bhm,bhm,43,0.7234550472196097,True
+Fusion (mixed text),bhm,mimosa,43,0.6403782860475773,False
+Fusion (mixed text),bhm,banglaabusememe,43,0.5807078939764341,False
+Fusion (mixed text),bhm,bhm,44,0.6901935669539805,True
+Fusion (mixed text),bhm,mimosa,44,0.6395604395604395,False
+Fusion (mixed text),bhm,banglaabusememe,44,0.5535490715531592,False
+Fusion (mixed text),mimosa,mimosa,42,0.7930530594025678,True
+Fusion (mixed text),mimosa,bhm,42,0.6895569620253165,False
+Fusion (mixed text),mimosa,banglaabusememe,42,0.45078071961982347,False
+Fusion (mixed text),mimosa,mimosa,43,0.7984629443166422,True
+Fusion (mixed text),mimosa,bhm,43,0.6629897367246764,False
+Fusion (mixed text),mimosa,banglaabusememe,43,0.40510782826617425,False
+Fusion (mixed text),mimosa,mimosa,44,0.7969612087259146,True
+Fusion (mixed text),mimosa,bhm,44,0.660169567157519,False
+Fusion (mixed text),mimosa,banglaabusememe,44,0.4119253438113949,False
+NAFIM,bhm,bhm,42,0.7348773616175008,True
+NAFIM,bhm,mimosa,42,0.6388482070681616,False
+NAFIM,bhm,banglaabusememe,42,0.6175152274290205,False
+NAFIM,bhm,bhm,43,0.7094830860838766,True
+NAFIM,bhm,mimosa,43,0.6447684203188639,False
+NAFIM,bhm,banglaabusememe,43,0.5805950405639964,False
+NAFIM,bhm,bhm,44,0.7159747961452929,True
+NAFIM,bhm,mimosa,44,0.647668269948914,False
+NAFIM,bhm,banglaabusememe,44,0.6164445994225027,False
+NAFIM,mimosa,mimosa,42,0.7997219969883007,True
+NAFIM,mimosa,bhm,42,0.6652655416612867,False
+NAFIM,mimosa,banglaabusememe,42,0.41676471689116507,False
+NAFIM,mimosa,mimosa,43,0.8129366137146836,True
+NAFIM,mimosa,bhm,43,0.6559382822503719,False
+NAFIM,mimosa,banglaabusememe,43,0.4296796986537826,False
+NAFIM,mimosa,mimosa,44,0.7966287878787879,True
+NAFIM,mimosa,bhm,44,0.6729289843614646,False
+NAFIM,mimosa,banglaabusememe,44,0.42519498553019197,False
+NAFIM + image fallback,bhm,bhm,42,0.7214709833560653,True
+NAFIM + image fallback,bhm,mimosa,42,0.644215975528083,False
+NAFIM + image fallback,bhm,banglaabusememe,42,0.5932853211331612,False
+NAFIM + image fallback,bhm,bhm,43,0.7283485300647453,True
+NAFIM + image fallback,bhm,mimosa,43,0.6136630223846254,False
+NAFIM + image fallback,bhm,banglaabusememe,43,0.6059099264705883,False
+NAFIM + image fallback,bhm,bhm,44,0.7225883987756558,True
+NAFIM + image fallback,bhm,mimosa,44,0.6180910446617507,False
+NAFIM + image fallback,bhm,banglaabusememe,44,0.6156415046472474,False
+NAFIM + image fallback,mimosa,mimosa,42,0.8006586493987049,True
+NAFIM + image fallback,mimosa,bhm,42,0.6556764052080025,False
+NAFIM + image fallback,mimosa,banglaabusememe,42,0.39620599152823016,False
+NAFIM + image fallback,mimosa,mimosa,43,0.800492318139377,True
+NAFIM + image fallback,mimosa,bhm,43,0.6582654082654082,False
+NAFIM + image fallback,mimosa,banglaabusememe,43,0.39701401384310275,False
+NAFIM + image fallback,mimosa,mimosa,44,0.800492318139377,True
+NAFIM + image fallback,mimosa,bhm,44,0.6534157041812159,False
+NAFIM + image fallback,mimosa,banglaabusememe,44,0.40466660683837385,False

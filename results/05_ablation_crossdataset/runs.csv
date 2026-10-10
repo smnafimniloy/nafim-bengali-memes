@@ -247,3 +247,99 @@ mimosa__label_bin__NAFIM_w_o_reliability_loss__s43,C,mimosa,label_bin,NAFIM w/o 
 mimosa__label_bin__NAFIM_w_o_reliability_loss__s43,C,mimosa,label_bin,NAFIM w/o reliability loss,43,mimosa,ocr,4,0.7822827510637079,0.794450927982532,0.8351648351648352,4.78
 mimosa__label_bin__NAFIM_w_o_reliability_loss__s43,C,mimosa,label_bin,NAFIM w/o reliability loss,43,bhm,ocr,4,0.7822827510637079,0.6630948967889908,0.6652601969057665,4.78
 mimosa__label_bin__NAFIM_w_o_reliability_loss__s43,C,mimosa,label_bin,NAFIM w/o reliability loss,43,banglaabusememe,ocr,4,0.7822827510637079,0.43689487381868275,0.4647713226205192,4.78
+bhm__label__NAFIM_w_o_consistency__s43,C,bhm,label,NAFIM w/o consistency,43,bhm,gold,3,0.751917616956158,0.7419270237778024,0.7566807313642757,8.01
+bhm__label__NAFIM_w_o_consistency__s43,C,bhm,label,NAFIM w/o consistency,43,bhm,surya,3,0.751917616956158,0.7129640532220896,0.729957805907173,8.01
+bhm__label__NAFIM_w_o_consistency__s43,C,bhm,label,NAFIM w/o consistency,43,bhm,easyocr,3,0.751917616956158,0.7284066039587453,0.7454289732770746,8.01
+bhm__label__NAFIM_w_o_consistency__s43,C,bhm,label,NAFIM w/o consistency,43,bhm,ocr,3,0.751917616956158,0.7129640532220896,0.729957805907173,8.01
+bhm__label__NAFIM_w_o_consistency__s43,C,bhm,label,NAFIM w/o consistency,43,mimosa,ocr,3,0.751917616956158,0.5706747346683956,0.5782967032967034,8.01
+bhm__label__NAFIM_w_o_consistency__s43,C,bhm,label,NAFIM w/o consistency,43,banglaabusememe,ocr,3,0.751917616956158,0.6169013953300615,0.622991347342398,8.01
+mimosa__label__NAFIM_w_o_consistency__s43,C,mimosa,label,NAFIM w/o consistency,43,mimosa,gold,3,0.7671971966566687,0.7877194677944663,0.7815934065934066,5.18
+mimosa__label__NAFIM_w_o_consistency__s43,C,mimosa,label,NAFIM w/o consistency,43,mimosa,surya,3,0.7671971966566687,0.7692898863038025,0.7637362637362637,5.18
+mimosa__label__NAFIM_w_o_consistency__s43,C,mimosa,label,NAFIM w/o consistency,43,mimosa,easyocr,3,0.7671971966566687,0.7698866676693925,0.760989010989011,5.18
+mimosa__label__NAFIM_w_o_consistency__s43,C,mimosa,label,NAFIM w/o consistency,43,mimosa,ocr,3,0.7671971966566687,0.77063528877976,0.7651098901098901,5.18
+mimosa__label_bin__NAFIM_w_o_consistency__s43,C,mimosa,label_bin,NAFIM w/o consistency,43,mimosa,gold,4,0.7859041268829907,0.7950738916256157,0.8351648351648352,5.15
+mimosa__label_bin__NAFIM_w_o_consistency__s43,C,mimosa,label_bin,NAFIM w/o consistency,43,mimosa,surya,4,0.7859041268829907,0.7792484057266531,0.820054945054945,5.15
+mimosa__label_bin__NAFIM_w_o_consistency__s43,C,mimosa,label_bin,NAFIM w/o consistency,43,mimosa,easyocr,4,0.7859041268829907,0.7765237280820194,0.8173076923076923,5.15
+mimosa__label_bin__NAFIM_w_o_consistency__s43,C,mimosa,label_bin,NAFIM w/o consistency,43,mimosa,ocr,4,0.7859041268829907,0.7792484057266531,0.820054945054945,5.15
+mimosa__label_bin__NAFIM_w_o_consistency__s43,C,mimosa,label_bin,NAFIM w/o consistency,43,bhm,ocr,4,0.7859041268829907,0.6789757151610927,0.6849507735583685,5.15
+mimosa__label_bin__NAFIM_w_o_consistency__s43,C,mimosa,label_bin,NAFIM w/o consistency,43,banglaabusememe,ocr,4,0.7859041268829907,0.4744022869022869,0.4932014833127318,5.15
+bhm__label__NAFIM_w_o_synthetic_noise__s43,C,bhm,label,NAFIM w/o synthetic noise,43,bhm,gold,3,0.748365660193426,0.7204957378134569,0.7327707454289732,8.33
+bhm__label__NAFIM_w_o_synthetic_noise__s43,C,bhm,label,NAFIM w/o synthetic noise,43,bhm,surya,3,0.748365660193426,0.7169404993966397,0.7285513361462729,8.33
+bhm__label__NAFIM_w_o_synthetic_noise__s43,C,bhm,label,NAFIM w/o synthetic noise,43,bhm,easyocr,3,0.748365660193426,0.7293221881982952,0.7412095639943741,8.33
+bhm__label__NAFIM_w_o_synthetic_noise__s43,C,bhm,label,NAFIM w/o synthetic noise,43,bhm,ocr,3,0.748365660193426,0.7169404993966397,0.7285513361462729,8.33
+bhm__label__NAFIM_w_o_synthetic_noise__s43,C,bhm,label,NAFIM w/o synthetic noise,43,mimosa,ocr,3,0.748365660193426,0.6043230730730731,0.6181318681318682,8.33
+bhm__label__NAFIM_w_o_synthetic_noise__s43,C,bhm,label,NAFIM w/o synthetic noise,43,banglaabusememe,ocr,3,0.748365660193426,0.6115126516037678,0.6143386897404203,8.33
+mimosa__label__NAFIM_w_o_synthetic_noise__s43,C,mimosa,label,NAFIM w/o synthetic noise,43,mimosa,gold,4,0.7597420776460471,0.7809991838740427,0.7747252747252747,4.98
+mimosa__label__NAFIM_w_o_synthetic_noise__s43,C,mimosa,label,NAFIM w/o synthetic noise,43,mimosa,surya,4,0.7597420776460471,0.7669066516487576,0.7596153846153846,4.98
+mimosa__label__NAFIM_w_o_synthetic_noise__s43,C,mimosa,label,NAFIM w/o synthetic noise,43,mimosa,easyocr,4,0.7597420776460471,0.7832086811493455,0.7733516483516484,4.98
+mimosa__label__NAFIM_w_o_synthetic_noise__s43,C,mimosa,label,NAFIM w/o synthetic noise,43,mimosa,ocr,4,0.7597420776460471,0.7669066516487576,0.7596153846153846,4.98
+mimosa__label_bin__NAFIM_w_o_synthetic_noise__s43,C,mimosa,label_bin,NAFIM w/o synthetic noise,43,mimosa,gold,4,0.7832159236887284,0.8000757575757576,0.8406593406593407,5.06
+mimosa__label_bin__NAFIM_w_o_synthetic_noise__s43,C,mimosa,label_bin,NAFIM w/o synthetic noise,43,mimosa,surya,4,0.7832159236887284,0.7952228433655198,0.8365384615384616,5.06
+mimosa__label_bin__NAFIM_w_o_synthetic_noise__s43,C,mimosa,label_bin,NAFIM w/o synthetic noise,43,mimosa,easyocr,4,0.7832159236887284,0.8043304005727565,0.8447802197802198,5.06
+mimosa__label_bin__NAFIM_w_o_synthetic_noise__s43,C,mimosa,label_bin,NAFIM w/o synthetic noise,43,mimosa,ocr,4,0.7832159236887284,0.7952228433655198,0.8365384615384616,5.06
+mimosa__label_bin__NAFIM_w_o_synthetic_noise__s43,C,mimosa,label_bin,NAFIM w/o synthetic noise,43,bhm,ocr,4,0.7832159236887284,0.6777840554046042,0.680731364275668,5.06
+mimosa__label_bin__NAFIM_w_o_synthetic_noise__s43,C,mimosa,label_bin,NAFIM w/o synthetic noise,43,banglaabusememe,ocr,4,0.7832159236887284,0.46255244755244757,0.48331273176761436,5.06
+bhm__label__NAFIM_w_o_gate__s44,C,bhm,label,NAFIM w/o gate,44,bhm,gold,4,0.7571202100964013,0.738943521162517,0.7538677918424754,8.36
+bhm__label__NAFIM_w_o_gate__s44,C,bhm,label,NAFIM w/o gate,44,bhm,surya,4,0.7571202100964013,0.737423243760915,0.7510548523206751,8.36
+bhm__label__NAFIM_w_o_gate__s44,C,bhm,label,NAFIM w/o gate,44,bhm,easyocr,4,0.7571202100964013,0.7316756122106676,0.7468354430379747,8.36
+bhm__label__NAFIM_w_o_gate__s44,C,bhm,label,NAFIM w/o gate,44,bhm,ocr,4,0.7571202100964013,0.737423243760915,0.7510548523206751,8.36
+bhm__label__NAFIM_w_o_gate__s44,C,bhm,label,NAFIM w/o gate,44,mimosa,ocr,4,0.7571202100964013,0.6209686383021042,0.6332417582417582,8.36
+bhm__label__NAFIM_w_o_gate__s44,C,bhm,label,NAFIM w/o gate,44,banglaabusememe,ocr,4,0.7571202100964013,0.6286201074632751,0.6316440049443758,8.36
+mimosa__label__NAFIM_w_o_gate__s44,C,mimosa,label,NAFIM w/o gate,44,mimosa,gold,5,0.7702126673270477,0.7923369033571076,0.7843406593406593,5.16
+mimosa__label__NAFIM_w_o_gate__s44,C,mimosa,label,NAFIM w/o gate,44,mimosa,surya,5,0.7702126673270477,0.769866299476539,0.7637362637362637,5.16
+mimosa__label__NAFIM_w_o_gate__s44,C,mimosa,label,NAFIM w/o gate,44,mimosa,easyocr,5,0.7702126673270477,0.7759127015622957,0.7692307692307693,5.16
+mimosa__label__NAFIM_w_o_gate__s44,C,mimosa,label,NAFIM w/o gate,44,mimosa,ocr,5,0.7702126673270477,0.7686415493339762,0.7623626373626373,5.16
+mimosa__label_bin__NAFIM_w_o_gate__s44,C,mimosa,label_bin,NAFIM w/o gate,44,mimosa,gold,3,0.7848271196640054,0.805920205920206,0.8406593406593407,4.93
+mimosa__label_bin__NAFIM_w_o_gate__s44,C,mimosa,label_bin,NAFIM w/o gate,44,mimosa,surya,3,0.7848271196640054,0.7992277992277992,0.8351648351648352,4.93
+mimosa__label_bin__NAFIM_w_o_gate__s44,C,mimosa,label_bin,NAFIM w/o gate,44,mimosa,easyocr,3,0.7848271196640054,0.7873654343653509,0.8269230769230769,4.93
+mimosa__label_bin__NAFIM_w_o_gate__s44,C,mimosa,label_bin,NAFIM w/o gate,44,mimosa,ocr,3,0.7848271196640054,0.7978404305369089,0.8337912087912088,4.93
+mimosa__label_bin__NAFIM_w_o_gate__s44,C,mimosa,label_bin,NAFIM w/o gate,44,bhm,ocr,3,0.7848271196640054,0.6893578643578644,0.6933895921237694,4.93
+mimosa__label_bin__NAFIM_w_o_gate__s44,C,mimosa,label_bin,NAFIM w/o gate,44,banglaabusememe,ocr,3,0.7848271196640054,0.47438909513166444,0.49443757725587145,4.93
+bhm__label__NAFIM_w_o_reliability_loss__s44,C,bhm,label,NAFIM w/o reliability loss,44,bhm,gold,3,0.7590564352049421,0.7423276501111935,0.7524613220815752,7.88
+bhm__label__NAFIM_w_o_reliability_loss__s44,C,bhm,label,NAFIM w/o reliability loss,44,bhm,surya,3,0.7590564352049421,0.7194589654841077,0.7285513361462729,7.88
+bhm__label__NAFIM_w_o_reliability_loss__s44,C,bhm,label,NAFIM w/o reliability loss,44,bhm,easyocr,3,0.7590564352049421,0.7253878771941358,0.7355836849507735,7.88
+bhm__label__NAFIM_w_o_reliability_loss__s44,C,bhm,label,NAFIM w/o reliability loss,44,bhm,ocr,3,0.7590564352049421,0.7194589654841077,0.7285513361462729,7.88
+bhm__label__NAFIM_w_o_reliability_loss__s44,C,bhm,label,NAFIM w/o reliability loss,44,mimosa,ocr,3,0.7590564352049421,0.6559290298316851,0.6771978021978022,7.88
+bhm__label__NAFIM_w_o_reliability_loss__s44,C,bhm,label,NAFIM w/o reliability loss,44,banglaabusememe,ocr,3,0.7590564352049421,0.5956761961530526,0.595797280593325,7.88
+mimosa__label__NAFIM_w_o_reliability_loss__s44,C,mimosa,label,NAFIM w/o reliability loss,44,mimosa,gold,4,0.7618336357437316,0.772763486594957,0.7678571428571429,4.8
+mimosa__label__NAFIM_w_o_reliability_loss__s44,C,mimosa,label,NAFIM w/o reliability loss,44,mimosa,surya,4,0.7618336357437316,0.757180681141372,0.7527472527472527,4.8
+mimosa__label__NAFIM_w_o_reliability_loss__s44,C,mimosa,label,NAFIM w/o reliability loss,44,mimosa,easyocr,4,0.7618336357437316,0.7686749693212949,0.7637362637362637,4.8
+mimosa__label__NAFIM_w_o_reliability_loss__s44,C,mimosa,label,NAFIM w/o reliability loss,44,mimosa,ocr,4,0.7618336357437316,0.7585697566680765,0.7541208791208791,4.8
+mimosa__label_bin__NAFIM_w_o_reliability_loss__s44,C,mimosa,label_bin,NAFIM w/o reliability loss,44,mimosa,gold,5,0.7891133128054785,0.8013486305966572,0.8475274725274725,4.89
+mimosa__label_bin__NAFIM_w_o_reliability_loss__s44,C,mimosa,label_bin,NAFIM w/o reliability loss,44,mimosa,surya,5,0.7891133128054785,0.8054648631840795,0.8489010989010989,4.89
+mimosa__label_bin__NAFIM_w_o_reliability_loss__s44,C,mimosa,label_bin,NAFIM w/o reliability loss,44,mimosa,easyocr,5,0.7891133128054785,0.8028693157116773,0.8502747252747253,4.89
+mimosa__label_bin__NAFIM_w_o_reliability_loss__s44,C,mimosa,label_bin,NAFIM w/o reliability loss,44,mimosa,ocr,5,0.7891133128054785,0.8054648631840795,0.8489010989010989,4.89
+mimosa__label_bin__NAFIM_w_o_reliability_loss__s44,C,mimosa,label_bin,NAFIM w/o reliability loss,44,bhm,ocr,5,0.7891133128054785,0.680742759958038,0.6821378340365682,4.89
+mimosa__label_bin__NAFIM_w_o_reliability_loss__s44,C,mimosa,label_bin,NAFIM w/o reliability loss,44,banglaabusememe,ocr,5,0.7891133128054785,0.42277868342226343,0.4573547589616811,4.89
+bhm__label__NAFIM_w_o_consistency__s44,C,bhm,label,NAFIM w/o consistency,44,bhm,gold,4,0.7607369830692203,0.7324251091374379,0.7468354430379747,7.92
+bhm__label__NAFIM_w_o_consistency__s44,C,bhm,label,NAFIM w/o consistency,44,bhm,surya,4,0.7607369830692203,0.7318496169161175,0.7454289732770746,7.92
+bhm__label__NAFIM_w_o_consistency__s44,C,bhm,label,NAFIM w/o consistency,44,bhm,easyocr,4,0.7607369830692203,0.7376383763837638,0.7524613220815752,7.92
+bhm__label__NAFIM_w_o_consistency__s44,C,bhm,label,NAFIM w/o consistency,44,bhm,ocr,4,0.7607369830692203,0.7318496169161175,0.7454289732770746,7.92
+bhm__label__NAFIM_w_o_consistency__s44,C,bhm,label,NAFIM w/o consistency,44,mimosa,ocr,4,0.7607369830692203,0.6279189994184031,0.6414835164835165,7.92
+bhm__label__NAFIM_w_o_consistency__s44,C,bhm,label,NAFIM w/o consistency,44,banglaabusememe,ocr,4,0.7607369830692203,0.6248372315856715,0.6266996291718171,7.92
+mimosa__label__NAFIM_w_o_consistency__s44,C,mimosa,label,NAFIM w/o consistency,44,mimosa,gold,5,0.7555748815238618,0.7791262095181232,0.7706043956043956,4.83
+mimosa__label__NAFIM_w_o_consistency__s44,C,mimosa,label,NAFIM w/o consistency,44,mimosa,surya,5,0.7555748815238618,0.7592487350971999,0.7513736263736264,4.83
+mimosa__label__NAFIM_w_o_consistency__s44,C,mimosa,label,NAFIM w/o consistency,44,mimosa,easyocr,5,0.7555748815238618,0.7657797694780241,0.7568681318681318,4.83
+mimosa__label__NAFIM_w_o_consistency__s44,C,mimosa,label,NAFIM w/o consistency,44,mimosa,ocr,5,0.7555748815238618,0.7592487350971999,0.7513736263736264,4.83
+mimosa__label_bin__NAFIM_w_o_consistency__s44,C,mimosa,label_bin,NAFIM w/o consistency,44,mimosa,gold,5,0.7839485393187435,0.806567403619592,0.8543956043956044,4.88
+mimosa__label_bin__NAFIM_w_o_consistency__s44,C,mimosa,label_bin,NAFIM w/o consistency,44,mimosa,surya,5,0.7839485393187435,0.800375234521576,0.8434065934065934,4.88
+mimosa__label_bin__NAFIM_w_o_consistency__s44,C,mimosa,label_bin,NAFIM w/o consistency,44,mimosa,easyocr,5,0.7839485393187435,0.7877618617139861,0.8365384615384616,4.88
+mimosa__label_bin__NAFIM_w_o_consistency__s44,C,mimosa,label_bin,NAFIM w/o consistency,44,mimosa,ocr,5,0.7839485393187435,0.800375234521576,0.8434065934065934,4.88
+mimosa__label_bin__NAFIM_w_o_consistency__s44,C,mimosa,label_bin,NAFIM w/o consistency,44,bhm,ocr,5,0.7839485393187435,0.6654994372286638,0.6666666666666666,4.88
+mimosa__label_bin__NAFIM_w_o_consistency__s44,C,mimosa,label_bin,NAFIM w/o consistency,44,banglaabusememe,ocr,5,0.7839485393187435,0.41920698034018117,0.453646477132262,4.88
+bhm__label__NAFIM_w_o_synthetic_noise__s44,C,bhm,label,NAFIM w/o synthetic noise,44,bhm,gold,2,0.7563516618775394,0.7327915949823782,0.7468354430379747,6.21
+bhm__label__NAFIM_w_o_synthetic_noise__s44,C,bhm,label,NAFIM w/o synthetic noise,44,bhm,surya,2,0.7563516618775394,0.7324251091374379,0.7468354430379747,6.21
+bhm__label__NAFIM_w_o_synthetic_noise__s44,C,bhm,label,NAFIM w/o synthetic noise,44,bhm,easyocr,2,0.7563516618775394,0.7267001774098167,0.7440225035161744,6.21
+bhm__label__NAFIM_w_o_synthetic_noise__s44,C,bhm,label,NAFIM w/o synthetic noise,44,bhm,ocr,2,0.7563516618775394,0.7324251091374379,0.7468354430379747,6.21
+bhm__label__NAFIM_w_o_synthetic_noise__s44,C,bhm,label,NAFIM w/o synthetic noise,44,mimosa,ocr,2,0.7563516618775394,0.59825514846253,0.6112637362637363,6.21
+bhm__label__NAFIM_w_o_synthetic_noise__s44,C,bhm,label,NAFIM w/o synthetic noise,44,banglaabusememe,ocr,2,0.7563516618775394,0.6048202764976958,0.6069221260815822,6.21
+mimosa__label__NAFIM_w_o_synthetic_noise__s44,C,mimosa,label,NAFIM w/o synthetic noise,44,mimosa,gold,5,0.7668348418540708,0.7902016258724747,0.782967032967033,4.73
+mimosa__label__NAFIM_w_o_synthetic_noise__s44,C,mimosa,label,NAFIM w/o synthetic noise,44,mimosa,surya,5,0.7668348418540708,0.7786515324452872,0.771978021978022,4.73
+mimosa__label__NAFIM_w_o_synthetic_noise__s44,C,mimosa,label,NAFIM w/o synthetic noise,44,mimosa,easyocr,5,0.7668348418540708,0.780453243151287,0.7733516483516484,4.73
+mimosa__label__NAFIM_w_o_synthetic_noise__s44,C,mimosa,label,NAFIM w/o synthetic noise,44,mimosa,ocr,5,0.7668348418540708,0.7786515324452872,0.771978021978022,4.73
+mimosa__label_bin__NAFIM_w_o_synthetic_noise__s44,C,mimosa,label_bin,NAFIM w/o synthetic noise,44,mimosa,gold,5,0.7827480793844224,0.8046714672119855,0.8475274725274725,4.89
+mimosa__label_bin__NAFIM_w_o_synthetic_noise__s44,C,mimosa,label_bin,NAFIM w/o synthetic noise,44,mimosa,surya,5,0.7827480793844224,0.8030826385547649,0.8447802197802198,4.89
+mimosa__label_bin__NAFIM_w_o_synthetic_noise__s44,C,mimosa,label_bin,NAFIM w/o synthetic noise,44,mimosa,easyocr,5,0.7827480793844224,0.7997219969883007,0.8434065934065934,4.89
+mimosa__label_bin__NAFIM_w_o_synthetic_noise__s44,C,mimosa,label_bin,NAFIM w/o synthetic noise,44,mimosa,ocr,5,0.7827480793844224,0.8030826385547649,0.8447802197802198,4.89
+mimosa__label_bin__NAFIM_w_o_synthetic_noise__s44,C,mimosa,label_bin,NAFIM w/o synthetic noise,44,bhm,ocr,5,0.7827480793844224,0.6619034828543289,0.6638537271448663,4.89
+mimosa__label_bin__NAFIM_w_o_synthetic_noise__s44,C,mimosa,label_bin,NAFIM w/o synthetic noise,44,banglaabusememe,ocr,5,0.7827480793844224,0.43325391598548535,0.4635352286773795,4.89
