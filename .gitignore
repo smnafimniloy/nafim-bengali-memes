@@ -12,6 +12,7 @@ results/**/preds/         # per-run prediction .npy files
 *.bin
 *.safetensors
 Saved_Models/
+results/**/adapters/
 
 # --- logs & caches ---
 *.log
@@ -31,3 +32,5 @@ __pycache__/
 papers/
 Research_Proposal_Bengali_Meme_Detection.docx
 Research_Proposal_NAFIM.docx
+results/**/adapters/
+results/**/*.npz

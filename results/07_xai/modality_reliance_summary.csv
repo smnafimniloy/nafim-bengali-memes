@@ -1,0 +1,9 @@
+,,,text_dependence,text_dependence,text_dependence,image_dependence,image_dependence,image_dependence
+bucket,,,CER < 0.2,0.2 – 0.5,CER ≥ 0.5,CER < 0.2,0.2 – 0.5,CER ≥ 0.5
+dataset,task,model,,,,,,
+bhm,label,Fusion (mixed text),0.125,0.12,0.102,0.187,0.179,0.19
+bhm,label,NAFIM,0.098,0.083,0.067,0.184,0.186,0.197
+mimosa,label,Fusion (mixed text),0.384,0.339,0.324,0.199,0.217,0.213
+mimosa,label,NAFIM,0.348,0.28,0.241,0.247,0.268,0.308
+mimosa,label_bin,Fusion (mixed text),0.297,0.256,0.261,0.123,0.128,0.144
+mimosa,label_bin,NAFIM,0.237,0.205,0.158,0.117,0.132,0.159

@@ -1,0 +1,4 @@
+dataset,task,NAFIM fixes (base wrong → NAFIM right),NAFIM breaks (base right → NAFIM wrong),both wrong,n_test
+bhm,label,14,22,161,711
+mimosa,label,19,14,155,728
+mimosa,label_bin,18,13,96,728

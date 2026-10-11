@@ -1,0 +1,24 @@
+{
+  "xai_seed": 42,
+  "error_analysis_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "error_analysis_vote": "majority over seeds, OCR text",
+  "grad_cam": "openai/clip-vit-large-patch14, gradients of NAFIM's predicted-class logit w.r.t. patch tokens of vision layer -2",
+  "token_attribution": "gradient x input on word embeddings, summed over hidden dim, merged to words",
+  "modality_reliance": "total-variation change of predicted distribution: text -> empty string; image -> mean train CLIP feature",
+  "shortcut_check": "logistic regression (balanced, C=0.5) on binary bag of words, min_df=3; extra = OCR words not in gold caption",
+  "blur_images": true,
+  "high_cer": 0.5,
+  "versions": {
+    "python": "3.10.22",
+    "torch": "2.5.1+cu121",
+    "transformers": "4.46.3",
+    "sklearn": "1.7.2",
+    "gpu": "NVIDIA GeForce RTX 3050"
+  }
+}

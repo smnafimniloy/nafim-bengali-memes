@@ -1,0 +1,13 @@
+dataset,task,features,vocab,test_macro_f1
+bhm,label,words only OCR reads (extra),649,0.5399712437095615
+bhm,label,gold caption words,4325,0.6439998344781925
+bhm,label,OCR text words,4424,0.6427245598022828
+bhm,label,NAFIM accuracy — memes with extra OCR words,549,0.7356318606964475
+bhm,label,NAFIM accuracy — memes without,162,0.7132522702785902
+bhm,label,majority-class baseline,0,0.38494809688581316
+mimosa,label,words only OCR reads (extra),637,0.4932333005777654
+mimosa,label,gold caption words,2930,0.5841856399476
+mimosa,label,OCR text words,3220,0.5938681009611326
+mimosa,label,NAFIM accuracy — memes with extra OCR words,633,0.7697248715696215
+mimosa,label,NAFIM accuracy — memes without,95,0.7867883995703544
+mimosa,label,majority-class baseline,0,0.08
