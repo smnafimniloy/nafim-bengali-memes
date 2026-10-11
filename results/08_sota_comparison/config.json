@@ -1,0 +1,89 @@
+{
+  "models": {
+    "DORA": {
+      "hf": "facebook/xglm-564M",
+      "d": 1024,
+      "max_len": 50,
+      "heads": 2,
+      "lr": 2e-05,
+      "wd": 0.0,
+      "hidden": 32,
+      "drop": 0.01,
+      "dual": true,
+      "opt": "adamw8bit"
+    },
+    "MAF": {
+      "hf": "sagorsarker/bangla-bert-base",
+      "d": 768,
+      "max_len": 70,
+      "heads": 16,
+      "lr": 5e-05,
+      "wd": 0.01,
+      "hidden": 128,
+      "drop": 0.2,
+      "dual": false,
+      "opt": "adamw"
+    }
+  },
+  "regimes": [
+    "train gold",
+    "mixed text"
+  ],
+  "tasks": [
+    [
+      "bhm",
+      "label"
+    ],
+    [
+      "mimosa",
+      "label"
+    ],
+    [
+      "mimosa",
+      "label_bin"
+    ]
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "nafim_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "batch_size": 16,
+  "max_epochs": 5,
+  "patience": 2,
+  "selection": "validation macro-F1 (gold for train-gold; mean over gold/surya/easyocr for mixed)",
+  "image_features": "CLIP ViT-B/32 (openai/clip-vit-base-patch32) image_embeds, Resize 224x224 + ImageNet normalization (official preprocessing), frozen",
+  "word_embeddings_frozen": true,
+  "mixed_text_mix": {
+    "gold": 0.3333333333333333,
+    "surya": 0.3333333333333333,
+    "easyocr": 0.3333333333333333
+  },
+  "loss": "unweighted cross-entropy (as published)",
+  "deviations_from_official": [
+    "batch 16",
+    "max 5 epochs + early stopping on val macro-F1",
+    "frozen word embeddings",
+    "DORA: 8-bit AdamW instead of MADGRAD",
+    "2-way softmax instead of sigmoid for binary tasks",
+    "pre-computed frozen CLIP features"
+  ],
+  "bootstrap": {
+    "n": 2000,
+    "seeds": "common seeds of NAFIM and baseline"
+  },
+  "versions": {
+    "python": "3.10.22",
+    "torch": "2.5.1+cu121",
+    "transformers": "4.46.3",
+    "sklearn": "1.7.2",
+    "gpu": "NVIDIA GeForce RTX 3050"
+  }
+}
