@@ -1,0 +1,79 @@
+{
+  "model": "Qwen/Qwen2-VL-2B-Instruct",
+  "max_pixels": 200704,
+  "min_pixels": 100352,
+  "max_text_chars": 300,
+  "prompt_template": "This is a Bengali social-media meme. The text written on the meme (automatically extracted, may contain errors) is:\n«<meme text>»\n\nIs this meme hateful, i.e. does it attack or demean a person or group?\nAnswer with only one of: No, Yes.",
+  "tasks": {
+    "bhm/label": {
+      "q": "Is this meme hateful, i.e. does it attack or demean a person or group?",
+      "opts": [
+        "No",
+        "Yes"
+      ]
+    },
+    "mimosa/label": {
+      "q": "Which type of aggression does this meme contain?\nA) none  B) political  C) religious  D) gendered  E) other",
+      "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    "mimosa/label_bin": {
+      "q": "Is this meme aggressive?",
+      "opts": [
+        "No",
+        "Yes"
+      ]
+    },
+    "banglaabusememe/label": {
+      "q": "Is this meme abusive?",
+      "opts": [
+        "No",
+        "Yes"
+      ]
+    }
+  },
+  "scoring": "softmax over next-token logits of the option tokens at the answer position",
+  "zero_shot": {
+    "precision": "bf16",
+    "calibration": "contextual calibration, 300 random validation memes (seed 0)"
+  },
+  "qlora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "lr": 0.0002,
+    "epochs": 1,
+    "grad_accum": 8,
+    "warmup": 0.03,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ],
+    "seeds": [
+      42
+    ],
+    "quantization": "4-bit nf4, double quant, bf16 compute",
+    "training_text": "50/50 gold / OCR (BanglaAbuseMeme: OCR only)",
+    "loss": "class-weighted CE over option logits",
+    "max_train": null
+  },
+  "versions": {
+    "python": "3.10.22",
+    "torch": "2.5.1+cu121",
+    "transformers": "4.46.3",
+    "sklearn": "1.7.2",
+    "gpu": "NVIDIA GeForce RTX 3050",
+    "peft": "0.13.2",
+    "bitsandbytes": "0.44.1"
+  }
+}
